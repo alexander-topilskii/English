@@ -1,10 +1,12 @@
-<!DOCTYPE html>
-<html lang="ru">
+import os, re
+
+header_template = """<!DOCTYPE html>
+<html lang=\"ru\">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>English Pronunciation</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <meta charset=\"UTF-8\">
+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
+    <title>{TITLE}</title>
+    <link href=\"https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap\" rel=\"stylesheet\">
     <style>
         body {
             font-family: 'Roboto', sans-serif;
@@ -101,12 +103,25 @@
     </style>
 </head>
 <body>
-    <div class="container">
-<p>2.5.4.1. Video: How to Pronounce the L Sound in English - YouTube - https://www.youtube.com/watch?v=0z1gT2g3w5s  </p>
-<p>2.5.4.2. Video: L Sound | Learn English Pronunciation - YouTube - https://www.youtube.com/watch?v=3f4kN4kX4U  </p>
-<p>2.5.4.3. Article: Minimal Pair /r/ and /l/ | Learn English - https://www.englishclub.com/pronunciation/minimal-pairs-r-l.php  </p>
-<p>2.5.4.4. Article: English Pronunciation: The L Sound - Hadar Shemesh - https://hadarshemesh.com/magazine/l-sound/  </p>
+    <div class=\"container\">
+"""
 
+footer = """
     </div>
 </body>
 </html>
+"""
+
+for root, _, files in os.walk('.'):
+    for name in files:
+        if name.endswith('.html'):
+            path = os.path.join(root, name)
+            with open(path, 'r', encoding='utf-8') as f:
+                content = f.read().strip()
+            content = re.sub(r'^<html><body>\n?', '', content)
+            content = re.sub(r'</body></html>$', '', content)
+            m = re.search(r'<h3>(.*?)</h3>', content)
+            title = m.group(1) if m else 'English Pronunciation'
+            new_content = header_template.replace('{TITLE}', title) + content + footer
+            with open(path, 'w', encoding='utf-8') as f:
+                f.write(new_content)
