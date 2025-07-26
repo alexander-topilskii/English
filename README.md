@@ -3,13 +3,11 @@
 План изучения произношения английского языка
 
 1. Гласные звуки и их перекрестное сравнение
-   
 1.1. Короткие гласные (/ɪ/, /æ/, /e/) — практика минимальных пар
-   
-   1.1.1. /ɪ/ — практика минимальных пар (например, ship/sheep, bit/beat)
-   1.1.1.1. Video: ɪ/ vs /i:/ | Learn English Pronunciation | Minimal Pairs Practice - https://m.youtube.com/watch?v=gme2kr9hhXg&t=546s
-   1.1.1.2. Video: I/ vs /i:/ | Learn English Pronunciation | Minimal Pairs Practice - https://shawenglish.com/i-vs-i-learn-english-pronunciation-minimal-pairs-practice/
-   1.1.1.3. Article: Minimal Pairs /ɪ/ and /i:/ - List of Words with Pronunciation - https://www.krisamerikos.com/blog/minimal-pairs-21.1.1.4. Article: How to Use Minimal Pairs to Improve Your English Pronunciation - https://www.leonardoenglish.com/blog/minimal-pairs  
+1.1.1. /ɪ/ — практика минимальных пар (например, ship/sheep, bit/beat)
+1.1.1.1. Video: ɪ/ vs /i:/ | Learn English Pronunciation | Minimal Pairs Practice - https://m.youtube.com/watch?v=gme2kr9hhXg&t=546s
+1.1.1.2. Video: I/ vs /i:/ | Learn English Pronunciation | Minimal Pairs Practice - https://shawenglish.com/i-vs-i-learn-english-pronunciation-minimal-pairs-practice/
+1.1.1.3. Article: Minimal Pairs /ɪ/ and /i:/ - List of Words with Pronunciation - https://www.krisamerikos.com/blog/minimal-pairs-21.1.1.4. Article: How to Use Minimal Pairs to Improve Your English Pronunciation - https://www.leonardoenglish.com/blog/minimal-pairs  
 1.1.2. /æ/ — практика минимальных пар (например, cat/cut, bad/bed)1.1.2.1. Video: /æ/ vs /e/ | Learn English Pronunciation Course #7 | Minimal Pairs ... - https://www.youtube.com/shorts/-yvryf-8CmE1.1.2.2. Video: How to Use Minimal Pairs to Improve Your English Pronunciation - https://www.youtube.com/watch?v=A7CkO-XSUVY&pp=0gcJCfwAo7VqN5tD1.1.2.3. Article: Minimal Pair /æ/ and /e/ | Learn English - https://www.englishclub.com/pronunciation/minimal-pairs-a-e.php1.1.2.4. Article: Minimal Pairs æ and e - List of Words with Pronunciation - https://www.krisamerikos.com/blog/minimal-pairs-1  
 1.1.3. /e/ — практика минимальных пар (например, bed/bad, pen/pin)1.1.3.1. Video: /æ/ vs /e/ | Learn English Pronunciation Course #7 | Minimal Pairs ... - https://www.youtube.com/shorts/-yvryf-8CmE1.1.3.2. Video: Minimal Pairs | Pronunciation Practice - YouTube - https://www.youtube.com/watch?v=iBnx_S1Zw9A1.1.3.3. Article: Minimal Pair /æ/ and /e/ | Learn English - https://www.englishclub.com/pronunciation/minimal-pairs-a-e.php1.1.3.4. Article: Minimal Pairs æ and e - List of Words with Pronunciation - https://www.krisamerikos.com/blog/minimal-pairs-1  
 1.2. Длинные гласные (/i:/, /u:/, /ɜ:/) — практика произношения
