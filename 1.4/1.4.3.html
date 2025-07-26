@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>English Pronunciation</title>
+    <title>1.4.3. /ɪə/ — произношение и минимальные пары</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
+        /* Основные стили */
         body {
             font-family: 'Roboto', sans-serif;
             background-color: #f4f7fa;
@@ -18,8 +19,9 @@
             min-height: 100vh;
             line-height: 1.6;
         }
+
         .container {
-            max-width: 800px;
+            max-width: 900px;
             width: 90%;
             background-color: #fff;
             padding: 40px 30px;
@@ -27,6 +29,7 @@
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
             margin: 20px auto;
         }
+
         h3 {
             font-size: 1.8rem;
             font-weight: 700;
@@ -36,40 +39,90 @@
             border-bottom: 2px solid #e0e0e0;
             padding-bottom: 10px;
         }
-        .section-list {
+
+        h4 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: #007bff;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+
+        h5 {
+            font-size: 1.2rem;
+            font-weight: 500;
+            color: #2c3e50;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        .resource-list {
             list-style: none;
             padding: 0;
             margin: 0;
         }
-        .section-item {
+
+        .resource-item {
             margin-bottom: 20px;
-        }
-        .section-item a {
-            display: block;
-            padding: 15px 20px;
             background-color: #e9f1ff;
             border-radius: 8px;
-            text-decoration: none;
-            color: #007bff;
-            font-weight: 500;
-            transition: background-color 0.3s ease, transform 0.2s ease;
+            padding: 15px 20px;
             box-shadow: 0 2px 8px rgba(0, 123, 255, 0.1);
         }
-        .section-item a:hover {
-            background-color: #d4e6ff;
-            transform: translateY(-2px);
-        }
-        .section-item strong {
-            display: block;
-            font-size: 1.1rem;
+
+        .resource-item summary {
+            font-weight: 500;
             color: #2c3e50;
-            margin-bottom: 5px;
+            cursor: pointer;
+            outline: none;
         }
+
+        .resource-item details[open] summary {
+            margin-bottom: 10px;
+        }
+
+        .resource-item iframe {
+            width: 100%;
+            height: 315px;
+            border: none;
+            border-radius: 8px;
+        }
+
+        .resource-item a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .resource-item a:hover {
+            color: #0056b3;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+
+        table th, table td {
+            border: 1px solid #e0e0e0;
+            padding: 10px;
+            text-align: left;
+        }
+
+        table th {
+            background-color: #f8f9fa;
+            font-weight: 600;
+        }
+
         .back-link {
             display: block;
             text-align: center;
             margin-top: 30px;
         }
+
         .back-link a {
             display: inline-block;
             padding: 10px 20px;
@@ -80,34 +133,161 @@
             font-weight: 500;
             transition: background-color 0.3s ease;
         }
+
         .back-link a:hover {
             background-color: #5a6268;
         }
+
+        /* Адаптивность для мобильных устройств */
         @media (max-width: 600px) {
             .container {
                 padding: 20px 15px;
                 width: 95%;
             }
+
             h3 {
                 font-size: 1.5rem;
             }
-            .section-item a {
+
+            h4 {
+                font-size: 1.2rem;
+            }
+
+            .resource-item {
                 padding: 12px 15px;
             }
-            .section-item strong {
-                font-size: 1rem;
+
+            .resource-item iframe {
+                height: 200px;
             }
         }
     </style>
 </head>
 <body>
     <div class="container">
+        <h3>1.4.3. /ɪə/ — произношение и минимальные пары (например, near, fear; near/knee)</h3>
+        
+        <h4>Видеоресурсы от англоязычных преподавателей</h4>
+        <ul class="resource-list">
+            <li class="resource-item">
+                <details>
+                    <summary>English Pronunciation - British Diphthong Sounds - /ɪə/, /eə/ & /ʊə (Eat or Sleep)</summary>
+                    <p>Объяснение /ɪə/ с примерами near, fear.</p>
+                    <iframe src="https://www.youtube.com/embed/H1OwQAGcEZo" allowfullscreen></iframe>
+                </details>
+            </li>
+            <li class="resource-item">
+                <details>
+                    <summary>How to Pronounce the /ɪə/ Sound in British English (Pronunciation with Emma)</summary>
+                    <p>Практика /ɪə/ с минимальными парами near/knee.</p>
+                    <iframe src="https://www.youtube.com/embed/mVbCNNhICgQ" allowfullscreen></iframe>
+                </details>
+            </li>
+            <li class="resource-item">
+                <details>
+                    <summary>English pronunciation: /ɜː/ vs. /ɪə/ minimal pairs (English Pronunciation with Fanny)</summary>
+                    <p>Минимальные пары для /ɜː/ vs /ɪə/.</p>
+                    <iframe src="https://www.youtube.com/embed/WHgTdB2Y50Y" allowfullscreen></iframe>
+                </details>
+            </li>
+            <li class="resource-item">
+                <details>
+                    <summary>Vowel Pronunciation (Lotus English)</summary>
+                    <p>Практика гласных, включая /ɪə/.</p>
+                    <iframe src="https://www.youtube.com/embed/Le6nq1U9QfayCgK69LCy9mts9xsvfo_Y_" allowfullscreen></iframe>
+                </details>
+            </li>
+            <li class="resource-item">
+                <details>
+                    <summary>Sounds & Spellings (Pronunciation with Emma)</summary>
+                    <p>Урок по звукам с минимальными парами для /ɪə/.</p>
+                    <iframe src="https://www.youtube.com/embed/Le6nq1U9QfaxBZHOBYe_Sf8MXERj6zKXH" allowfullscreen></iframe>
+                </details>
+            </li>
+        </ul>
 
-<p>1.4.3.1. Video: How to Pronounce ALL Vowel Sounds in British English ... - YouTube - https://www.youtube.com/watch?v=jUHuHVysCxs&pp=0gcJCfwAo7VqN5tD  </p>
-<p>1.4.3.2. Video: The Diphthong /ʊə/ | Vowel Sounds | English Pronunciation - YouTube - https://www.youtube.com/watch?v=zOhXA_is93Q  </p>
-<p>1.4.3.3. Article: Complete Guide to the 8 Diphthongs in English - BoldVoice - https://www.boldvoice.com/blog/diphthongs-in-english  </p>
-<p>1.4.3.4. Article: [PDF] THE AUDITORY PERCEPTION OF NORTH AMERICAN ENGLISH ... - https://files.eric.ed.gov/fulltext/EJ1250580.pdf   </p>
+        <h4>Видеоресурсы от русскоязычных преподавателей</h4>
+        <ul class="resource-list">
+            <li class="resource-item">
+                <details>
+                    <summary>Английские дифтонги: /ɪə/ - секреты произношения (English Galaxy)</summary>
+                    <p>Объяснение /ɪə/ с минимальными парами near/knee для русскоязычных.</p>
+                    <iframe src="https://www.youtube.com/embed/KWvmZ4SIYWI" allowfullscreen></iframe>
+                </details>
+            </li>
+            <li class="resource-item">
+                <details>
+                    <summary>Английские дифтонги: /oʊ/ /əʊ/ - секреты произношения (English Galaxy)</summary>
+                    <p>Сравнение дифтонгов, включая /ɪə/.</p>
+                    <iframe src="https://www.youtube.com/embed/Xntco0dIMIA" allowfullscreen></iframe>
+                </details>
+            </li>
+        </ul>
 
+        <h4>Текстовые ресурсы на английском</h4>
+        <ul class="resource-list">
+            <li class="resource-item">
+                <strong>Minimal Pair /ɪ/ and /i:/ (EnglishClub)</strong>
+                <p>Список пар, близкий к /ɪə/.</p>
+                <a href="https://www.englishclub.com/pronunciation/minimal-pairs-i-ee.php" target="_blank">Ссылка на ресурс</a>
+            </li>
+            <li class="resource-item">
+                <strong>50+ English Minimal Pair Examples for Pronunciation Practice (Preply)</strong>
+                <p>Примеры пар для /ɪə/.</p>
+                <a href="https://preply.com/en/blog/minimal-pairs/" target="_blank">Ссылка на ресурс</a>
+            </li>
+            <li class="resource-item">
+                <strong>List of minimal pairs in english (Website-files)</strong>
+                <p>PDF с минимальными парами, включая дифтонги.</p>
+                <a href="https://assets-global.website-files.com/66f3ca884a8acbae237b2bb4/67f981c59e70dd9cceac0b32_dekokugodefitemotavamefi.pdf" target="_blank">Ссылка на ресурс</a>
+            </li>
+            <li class="resource-item">
+                <strong>2024 5 23 47 52 927 Slides Lesson 8 (Scribd)</strong>
+                <p>Слайды с упражнениями на /ɪə/.</p>
+                <a href="https://www.scribd.com/presentation/738526905/2024-5-23-47-52-927-slides-lesson-8" target="_blank">Ссылка на ресурс</a>
+            </li>
+            <li class="resource-item">
+                <strong>Phonetics: A coursebook (Fimsschools)</strong>
+                <p>Курс с упражнениями на дифтонги.</p>
+                <a href="https://content.fimsschools.com/academy.fims.org.pk/Phonetics%2520A%2520Coursebook.pdf" target="_blank">Ссылка на ресурс</a>
+            </li>
+        </ul>
+
+        <h4>Текстовые ресурсы на русском</h4>
+        <ul class="resource-list">
+            <li class="resource-item">
+                <strong>English pronunciation for Russian speakers (BoldVoice)</strong>
+                <p>Советы по /ɪə/ для русскоязычных.</p>
+                <a href="https://www.boldvoice.com/blog/english-pronunciation-russian-speakers" target="_blank">Ссылка на ресурс</a>
+            </li>
+            <li class="resource-item">
+                <strong>Russian Speakers: English Pronunciation Exercises (Speech Active)</strong>
+                <p>Упражнения на дифтонги.</p>
+                <a href="https://www.speechactive.com/english-pronunciation-accent-reduction-russian/" target="_blank">Ссылка на ресурс</a>
+            </li>
+        </ul>
+
+        <h4>Практические упражнения</h4>
+        <div class="resource-item">
+            <h5>Одиночные слова</h5>
+            <p>Повторяйте слова с /ɪə/: near, fear, beer, clear. Сравнивайте пары: near/knee, fear/fee, beer/bee. Фокусируйтесь на скольжении от /ɪ/ к /ə/.</p>
+        </div>
+        <div class="resource-item">
+            <h5>Фразы</h5>
+            <p>Практикуйте: "Near the pier." "Fear the year." Повторите 5–10 раз каждую.</p>
+        </div>
+        <div class="resource-item">
+            <h5>Скороговорки</h5>
+            <p>"Near an ear, a nearer ear, a nearly eerie ear." "Clear beer here." Повторяйте медленно, затем ускоряйте.</p>
+        </div>
+        <div class="resource-item">
+            <h5>Дополнительно: Аудирование</h5>
+            <p>Запишите себя и сравните с видео. Слушайте подкасты с /ɪə/ и повторяйте.</p>
+        </div>
+
+        <div class="back-link">
+            <a href="1.4.html">Back</a>
+        </div>
     </div>
 </body>
 </html>
