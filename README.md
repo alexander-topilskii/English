@@ -3,7 +3,9 @@
 План изучения произношения английского языка
 
 1. Гласные звуки и их перекрестное сравнение
+   
 1.1. Короткие гласные (/ɪ/, /æ/, /e/) — практика минимальных пар
+   
    1.1.1. /ɪ/ — практика минимальных пар (например, ship/sheep, bit/beat)
    1.1.1.1. Video: ɪ/ vs /i:/ | Learn English Pronunciation | Minimal Pairs Practice - https://m.youtube.com/watch?v=gme2kr9hhXg&t=546s
    1.1.1.2. Video: I/ vs /i:/ | Learn English Pronunciation | Minimal Pairs Practice - https://shawenglish.com/i-vs-i-learn-english-pronunciation-minimal-pairs-practice/
