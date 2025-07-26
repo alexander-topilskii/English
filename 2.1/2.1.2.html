@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>English Pronunciation</title>
+    <title>2.1.2. /ʃ/ — артикуляция и минимальные пары (например, ship/chip)</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
+        /* Основные стили */
         body {
             font-family: 'Roboto', sans-serif;
             background-color: #f4f7fa;
@@ -18,8 +19,9 @@
             min-height: 100vh;
             line-height: 1.6;
         }
+
         .container {
-            max-width: 800px;
+            max-width: 900px;
             width: 90%;
             background-color: #fff;
             padding: 40px 30px;
@@ -27,6 +29,7 @@
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
             margin: 20px auto;
         }
+
         h3 {
             font-size: 1.8rem;
             font-weight: 700;
@@ -36,40 +39,82 @@
             border-bottom: 2px solid #e0e0e0;
             padding-bottom: 10px;
         }
-        .section-list {
+
+        h4 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: #007bff;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+
+        .resource-list {
             list-style: none;
             padding: 0;
             margin: 0;
         }
-        .section-item {
+
+        .resource-item {
             margin-bottom: 20px;
-        }
-        .section-item a {
-            display: block;
-            padding: 15px 20px;
             background-color: #e9f1ff;
             border-radius: 8px;
-            text-decoration: none;
-            color: #007bff;
-            font-weight: 500;
-            transition: background-color 0.3s ease, transform 0.2s ease;
+            padding: 15px 20px;
             box-shadow: 0 2px 8px rgba(0, 123, 255, 0.1);
         }
-        .section-item a:hover {
-            background-color: #d4e6ff;
-            transform: translateY(-2px);
-        }
-        .section-item strong {
-            display: block;
-            font-size: 1.1rem;
+
+        .resource-item summary {
+            font-weight: 500;
             color: #2c3e50;
-            margin-bottom: 5px;
+            cursor: pointer;
+            outline: none;
         }
+
+        .resource-item details[open] summary {
+            margin-bottom: 10px;
+        }
+
+        .resource-item iframe {
+            width: 100%;
+            height: 315px;
+            border: none;
+            border-radius: 8px;
+        }
+
+        .resource-item a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .resource-item a:hover {
+            color: #0056b3;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+
+        table th, table td {
+            border: 1px solid #e0e0e0;
+            padding: 10px;
+            text-align: left;
+        }
+
+        table th {
+            background-color: #f8f9fa;
+            font-weight: 600;
+        }
+
         .back-link {
             display: block;
             text-align: center;
             margin-top: 30px;
         }
+
         .back-link a {
             display: inline-block;
             padding: 10px 20px;
@@ -80,33 +125,188 @@
             font-weight: 500;
             transition: background-color 0.3s ease;
         }
+
         .back-link a:hover {
             background-color: #5a6268;
         }
+
+        /* Адаптивность для мобильных устройств */
         @media (max-width: 600px) {
             .container {
                 padding: 20px 15px;
                 width: 95%;
             }
+
             h3 {
                 font-size: 1.5rem;
             }
-            .section-item a {
+
+            h4 {
+                font-size: 1.2rem;
+            }
+
+            .resource-item {
                 padding: 12px 15px;
             }
-            .section-item strong {
-                font-size: 1rem;
+
+            .resource-item iframe {
+                height: 200px;
             }
         }
     </style>
 </head>
 <body>
     <div class="container">
-<p>2.1.2.1. Video: SH vs CH Sounds | Improve English Pronunciation - YouTube - https://www.youtube.com/watch?v=3kzkHY3uLJI  </p>
-<p>2.1.2.2. Video: English Pronunciation: /ʃ/ vs /tʃ/ - YouTube - https://www.youtube.com/watch?v=zvM3TUo4r2o  </p>
-<p>2.1.2.3. Article: Minimal Pair /ʃ/ and /tʃ/ | Learn English - https://www.englishclub.com/pronunciation/minimal-pairs-sh-ch.php  </p>
-<p>2.1.2.4. Article: English Pronunciation: The Sounds /ʃ/ and /tʃ/ - Hadar Shemesh - https://hadarshemesh.com/magazine/sh-ch/  </p>
+        <h3>2.1.2. /ʃ/ — артикуляция и минимальные пары (например, ship/chip)</h3>
+        
+        <h4>Видеоресурсы от англоязычных преподавателей</h4>
+        <ul class="resource-list">
+            <li class="resource-item">
+                <details>
+                    <summary>CH vs SH Minimal Pairs /tʃ/ vs /ʃ/</summary>
+                    <p>Практика различения /tʃ/ и /ʃ/ с минимальными пары, артикуляцией языка.</p>
+                    <iframe src="https://www.youtube.com/embed/8ceECCqe-9Y" allowfullscreen></iframe>
+                </details>
+            </li>
+            <li class="resource-item">
+                <details>
+                    <summary>British English Pronunciation - Consonant Sounds /ʃ/ & /ʒ/</summary>
+                    <p>Объяснение звука 'sh' в британском английском с примерами.</p>
+                    <iframe src="https://www.youtube.com/embed/ESp1yxygHNE" allowfullscreen></iframe>
+                </details>
+            </li>
+            <li class="resource-item">
+                <details>
+                    <summary>Articulation: Prompting "SH"</summary>
+                    <p>Советы по артикуляции /ʃ/ для речи терапии.</p>
+                    <iframe src="https://www.youtube.com/embed/Q6-_F1NjjOU" allowfullscreen></iframe>
+                </details>
+            </li>
+            <li class="resource-item">
+                <details>
+                    <summary>Fricatives: s vs z and ʃ vs ʒ - The Minimal Pair Method</summary>
+                    <p>Минимальные пары для фрикативных звуков, включая /ʃ/.</p>
+                    <iframe src="https://www.youtube.com/embed/Wjt7Jb0nLRc" allowfullscreen></iframe>
+                </details>
+            </li>
+            <li class="resource-item">
+                <details>
+                    <summary>Speech with Jenn: Minimal Pairs s/sh</summary>
+                    <p>Практика минимальных пар s/sh для детей.</p>
+                    <iframe src="https://www.youtube.com/embed/vdJjlBXLZnw" allowfullscreen></iframe>
+                </details>
+            </li>
+        </ul>
 
+        <h4>Видеоресурсы от русскоязычных преподавателей</h4>
+        <ul class="resource-list">
+            <li class="resource-item">
+                <details>
+                    <summary>English pronunciation for Russian speakers (playlist)</summary>
+                    <p>Плейлист с практикой /ʃ/ для русскоязычных.</p>
+                    <iframe src="https://www.youtube.com/embed/videoseries?list=PLHxlaa5B8VP4VNpzMC1FVfydxjINnDThi" allowfullscreen></iframe>
+                </details>
+            </li>
+            <li class="resource-item">
+                <details>
+                    <summary>10 pronunciation mistakes RUSSIAN SPEAKERS make</summary>
+                    <p>Ошибки с /ʃ/ и подобными звуками для русских.</p>
+                    <iframe src="https://www.youtube.com/embed/ZPPBQcz-ZPk" allowfullscreen></iframe>
+                </details>
+            </li>
+            <li class="resource-item">
+                <details>
+                    <summary>Pronunciation of Russian Ш (sh) and Щ (shsh)</summary>
+                    <p>Сравнение русских Ш и Щ с английским /ʃ/.</p>
+                    <iframe src="https://www.youtube.com/embed/y9Em1fx0mWg" allowfullscreen></iframe>
+                </details>
+            </li>
+        </ul>
+
+        <h4>Текстовые ресурсы на английском</h4>
+        <ul class="resource-list">
+            <li class="resource-item">
+                <strong>Minimal Pair /s/ and /ʃ/ (EnglishClub)</strong>
+                <p>/ʃ/ is produced with a rounded mouth, sound for quiet. Примеры: sip/ship, sock/shock.</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>/s/</th>
+                            <th>/ʃ/</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>sip</td>
+                            <td>ship</td>
+                        </tr>
+                        <tr>
+                            <td>sock</td>
+                            <td>shock</td>
+                        </tr>
+                        <tr>
+                            <td>sign</td>
+                            <td>shine</td>
+                        </tr>
+                        <tr>
+                            <td>sew</td>
+                            <td>show</td>
+                        </tr>
+                        <tr>
+                            <td>sue</td>
+                            <td>shoe</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a href="https://www.englishclub.com/pronunciation/minimal-pairs-s-sh.php" target="_blank">Ссылка на ресурс</a>
+            </li>
+            <li class="resource-item">
+                <strong>50+ English Minimal Pair Examples for Pronunciation Practice (Preply)</strong>
+                <p>Примеры для /ʃ/ vs /tʃ/: ship/chip, sheet/cheat. Советы для практики.</p>
+                <a href="https://preply.com/en/blog/minimal-pairs/" target="_blank">Ссылка на ресурс</a>
+            </li>
+            <li class="resource-item">
+                <strong>The Complete Guide to the 9 Fricative Sounds in English (BoldVoice)</strong>
+                <p>Артикуляция /ʃ/ и минимальные пары.</p>
+                <a href="https://www.boldvoice.com/blog/fricative-sounds-in-english" target="_blank">Ссылка на ресурс</a>
+            </li>
+        </ul>
+
+        <h4>Текстовые ресурсы на русском</h4>
+        <ul class="resource-list">
+            <li class="resource-item">
+                <strong>English pronunciation practice for Russian speakers (TedPower)</strong>
+                <p>Ошибки с /ʃ/ для русских.</p>
+                <a href="http://www.tedpower.co.uk/l1russian.html" target="_blank">Ссылка на ресурс</a>
+            </li>
+            <li class="resource-item">
+                <strong>English Pronunciation Skills and Intelligibility of Native Russian Speakers</strong>
+                <p>Упражнения для /ʃ/.</p>
+                <a href="https://repository.usfca.edu/cgi/viewcontent.cgi?article=2905&context=capstone" target="_blank">Ссылка на ресурс</a>
+            </li>
+        </ul>
+
+        <h4>Практические упражнения</h4>
+        <div class="resource-item">
+            <h5>Одиночные слова</h5>
+            <p>Повторяйте слова с /ʃ/: ship, shoe, shock, shine, show. Сравнивайте с /tʃ/: chip, chew, chalk, chine, cho.</p>
+        </div>
+        <div class="resource-item">
+            <h5>Фразы</h5>
+            <p>"The ship is big." vs "The chip is big." Повторите 5–10 раз.</p>
+        </div>
+        <div class="resource-item">
+            <h5>Скороговорки</h5>
+            <p>"She sells sea shells on the sea shore." Повторяйте, ускоряя.</p>
+        </div>
+        <div class="resource-item">
+            <h5>Дополнительно: Аудирование</h5>
+            <p>Слушайте пары и угадывайте, какой звук.</p>
+        </div>
+
+        <div class="back-link">
+            <a href="2.1.html">Back</a>
+        </div>
     </div>
 </body>
 </html>

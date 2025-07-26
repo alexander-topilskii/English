@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>English Pronunciation</title>
+    <title>2.1.1. /θ/ — артикуляция и минимальные пары</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
+        /* Основные стили */
         body {
             font-family: 'Roboto', sans-serif;
             background-color: #f4f7fa;
@@ -18,8 +19,9 @@
             min-height: 100vh;
             line-height: 1.6;
         }
+
         .container {
-            max-width: 800px;
+            max-width: 900px;
             width: 90%;
             background-color: #fff;
             padding: 40px 30px;
@@ -27,6 +29,7 @@
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
             margin: 20px auto;
         }
+
         h3 {
             font-size: 1.8rem;
             font-weight: 700;
@@ -36,40 +39,82 @@
             border-bottom: 2px solid #e0e0e0;
             padding-bottom: 10px;
         }
-        .section-list {
+
+        h4 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: #007bff;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+
+        .resource-list {
             list-style: none;
             padding: 0;
             margin: 0;
         }
-        .section-item {
+
+        .resource-item {
             margin-bottom: 20px;
-        }
-        .section-item a {
-            display: block;
-            padding: 15px 20px;
             background-color: #e9f1ff;
             border-radius: 8px;
-            text-decoration: none;
-            color: #007bff;
-            font-weight: 500;
-            transition: background-color 0.3s ease, transform 0.2s ease;
+            padding: 15px 20px;
             box-shadow: 0 2px 8px rgba(0, 123, 255, 0.1);
         }
-        .section-item a:hover {
-            background-color: #d4e6ff;
-            transform: translateY(-2px);
-        }
-        .section-item strong {
-            display: block;
-            font-size: 1.1rem;
+
+        .resource-item summary {
+            font-weight: 500;
             color: #2c3e50;
-            margin-bottom: 5px;
+            cursor: pointer;
+            outline: none;
         }
+
+        .resource-item details[open] summary {
+            margin-bottom: 10px;
+        }
+
+        .resource-item iframe {
+            width: 100%;
+            height: 315px;
+            border: none;
+            border-radius: 8px;
+        }
+
+        .resource-item a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .resource-item a:hover {
+            color: #0056b3;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+
+        table th, table td {
+            border: 1px solid #e0e0e0;
+            padding: 10px;
+            text-align: left;
+        }
+
+        table th {
+            background-color: #f8f9fa;
+            font-weight: 600;
+        }
+
         .back-link {
             display: block;
             text-align: center;
             margin-top: 30px;
         }
+
         .back-link a {
             display: inline-block;
             padding: 10px 20px;
@@ -80,33 +125,193 @@
             font-weight: 500;
             transition: background-color 0.3s ease;
         }
+
         .back-link a:hover {
             background-color: #5a6268;
         }
+
+        /* Адаптивность для мобильных устройств */
         @media (max-width: 600px) {
             .container {
                 padding: 20px 15px;
                 width: 95%;
             }
+
             h3 {
                 font-size: 1.5rem;
             }
-            .section-item a {
+
+            h4 {
+                font-size: 1.2rem;
+            }
+
+            .resource-item {
                 padding: 12px 15px;
             }
-            .section-item strong {
-                font-size: 1rem;
+
+            .resource-item iframe {
+                height: 200px;
             }
         }
     </style>
 </head>
 <body>
     <div class="container">
-<p>2.1.1.1. Video: The TH Sound in English - New and IMPROVED Lesson - YouTube - https://www.youtube.com/watch?v=CYWV4ISaBNM  </p>
-<p>2.1.1.2. Video: How to Pronounce TH in English | θ vs ð Sounds - YouTube - https://www.youtube.com/watch?v=5hC6bRLr1PU  </p>
-<p>2.1.1.3. Article: Minimal Pair /θ/ and /s/ | Learn English - https://www.englishclub.com/pronunciation/minimal-pairs-th-s.php  </p>
-<p>2.1.1.4. Article: How to Pronounce the TH Sound in English - Pronunciation Studio - https://pronunciationstudio.com/th-sound/  </p>
+        <h3>2.1.1. /θ/ — артикуляция и минимальные пары (например, think/sink)</h3>
+        
+        <h4>Видеоресурсы от англоязычных преподавателей</h4>
+        <ul class="resource-list">
+            <li class="resource-item">
+                <details>
+                    <summary>Pronunciation: /θ/ & /ð/ (minimal pairs)</summary>
+                    <p>Listen to and repeat these sets of minimal pairs to improve your pronunciation of /θ/ & /ð/! Видео помогает различать звуки через минимальные пары.</p>
+                    <iframe src="https://www.youtube.com/embed/4kwDHWHZJ8c" allowfullscreen></iframe>
+                </details>
+            </li>
+            <li class="resource-item">
+                <details>
+                    <summary>English Sounds - The Two TH Consonants [θ] and [ð]</summary>
+                    <p>Объяснение и практика двух TH звуков с примерами и артикуляцией.</p>
+                    <iframe src="https://www.youtube.com/embed/nlKNo1TGALA" allowfullscreen></iframe>
+                </details>
+            </li>
+            <li class="resource-item">
+                <details>
+                    <summary>How to Say the TH Sound | American English Pronunciation Lesson</summary>
+                    <p>Урок по артикуляции TH звука с советами для естественного произношения.</p>
+                    <iframe src="https://www.youtube.com/embed/BBSU6A-CRx0" allowfullscreen></iframe>
+                </details>
+            </li>
+            <li class="resource-item">
+                <details>
+                    <summary>Voiced "TH" Sound: Tips from a Speech Therapist /ð/</summary>
+                    <p>Советы по voiced TH звуку с инструкциями для взрослых.</p>
+                    <iframe src="https://www.youtube.com/embed/bzb32gPj2bk" allowfullscreen></iframe>
+                </details>
+            </li>
+            <li class="resource-item">
+                <details>
+                    <summary>The TH Sound in English - New and IMPROVED Lesson</summary>
+                    <p>Улучшенный урок по TH звуку с практикой и примерами.</p>
+                    <iframe src="https://www.youtube.com/embed/CYWV4tu9rrQ" allowfullscreen></iframe>
+                </details>
+            </li>
+            <li class="resource-item">
+                <details>
+                    <summary>Fricatives: f vs v and θ vs ð | Perfect English Pronunciation</summary>
+                    <p>Сравнение фрикативных звуков с минимальными парами.</p>
+                    <iframe src="https://www.youtube.com/embed/RgA2BjDzHhk" allowfullscreen></iframe>
+                </details>
+            </li>
+        </ul>
 
+        <h4>Видеоресурсы от русскоязычных преподавателей</h4>
+        <ul class="resource-list">
+            <li class="resource-item">
+                <details>
+                    <summary>English pronunciation for Russian speakers (playlist)</summary>
+                    <p>Плейлист с практикой произношения для русскоязычных, включая TH звуки и минимальные пары.</p>
+                    <iframe src="https://www.youtube.com/embed/videoseries?list=PLHxlaa5B8VP4VNpzMC1FVfydxjINnDThi" allowfullscreen></iframe>
+                </details>
+            </li>
+            <li class="resource-item">
+                <details>
+                    <summary>10 pronunciation mistakes RUSSIAN SPEAKERS make</summary>
+                    <p>Общие ошибки русскоязычных, включая TH звук, с объяснениями.</p>
+                    <iframe src="https://www.youtube.com/embed/ZPPBQcz-ZPk" allowfullscreen></iframe>
+                </details>
+            </li>
+        </ul>
+
+        <h4>Текстовые ресурсы на английском</h4>
+        <ul class="resource-list">
+            <li class="resource-item">
+                <strong>Minimal Pair /t/ and /θ/ (EnglishClub)</strong>
+                <p>/θ/ is made with the tongue between the teeth and a smooth release of air. Советы: Используйте минимальные пары для практики.</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>/t/</th>
+                            <th>/θ/</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>tank</td>
+                            <td>thank</td>
+                        </tr>
+                        <tr>
+                            <td>tick</td>
+                            <td>thick</td>
+                        </tr>
+                        <tr>
+                            <td>tin</td>
+                            <td>thin</td>
+                        </tr>
+                        <tr>
+                            <td>true</td>
+                            <td>through</td>
+                        </tr>
+                        <tr>
+                            <td>tree</td>
+                            <td>three</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a href="https://www.englishclub.com/pronunciation/minimal-pairs-t-th.php" target="_blank">Ссылка на ресурс</a>
+            </li>
+            <li class="resource-item">
+                <strong>50+ English Minimal Pair Examples for Pronunciation Practice (Preply)</strong>
+                <p>Фокус на /θ/ vs /s/: thank/sank, thick/sick, think/sink. Советы: Практикуйте с tongue twisters и записями.</p>
+                <a href="https://preply.com/en/blog/minimal-pairs/" target="_blank">Ссылка на ресурс</a>
+            </li>
+            <li class="resource-item">
+                <strong>TH Sounds in English - What Does the Future Hold? (EFL Magazine)</strong>
+                <p>TH-sounds /θ/ and /ð/ challenging for learners. Артикуляция: tongue between teeth, exhale.</p>
+                <a href="https://eflmagazine.com/th-sounds-in-english-what-does-the-future-hold/" target="_blank">Ссылка на ресурс</a>
+            </li>
+        </ul>
+
+        <h4>Текстовые ресурсы на русском</h4>
+        <ul class="resource-list">
+            <li class="resource-item">
+                <strong>English pronunciation practice for Russian speakers (TedPower)</strong>
+                <p>Коррекция ошибок русскоязычных в произношении, включая /θ/ как в think.</p>
+                <a href="http://www.tedpower.co.uk/l1russian.html" target="_blank">Ссылка на ресурс</a>
+            </li>
+            <li class="resource-item">
+                <strong>English Pronunciation Skills and Intelligibility of Native Russian Speakers</strong>
+                <p>Упражнения с минимальными парами для /θ/, сравнение с русскими звуками.</p>
+                <a href="https://repository.usfca.edu/cgi/viewcontent.cgi?article=2905&context=capstone" target="_blank">Ссылка на ресурс</a>
+            </li>
+            <li class="resource-item">
+                <strong>Опасные слова: чего не стоит говорить при носителях английского (Habr)</strong>
+                <p>Минимальные пары с /θ/, чтобы избежать недоразумений, как think/sink.</p>
+                <a href="https://habr.com/ru/articles/648051/" target="_blank">Ссылка на ресурс</a>
+            </li>
+        </ul>
+
+        <h4>Практические упражнения</h4>
+        <div class="resource-item">
+            <h5>Одиночные слова</h5>
+            <p>Повторяйте слова с /θ/: think, thick, thank, mouth, bath. Фокусируйтесь на языке между зубами.</p>
+        </div>
+        <div class="resource-item">
+            <h5>Фразы</h5>
+            <p>Практикуйте: "Think about the thick book." vs "Sink about the sick book." Повторите пары: think/sink, thick/sick.</p>
+        </div>
+        <div class="resource-item">
+            <h5>Скороговорки</h5>
+            <p>"Three thinkers think thick thoughts." "Thank the thick thief." Повторяйте медленно, затем ускоряйте.</p>
+        </div>
+        <div class="resource-item">
+            <h5>Дополнительно: Аудирование</h5>
+            <p>Запишите себя с парами и сравните с видео. Угадайте, какой звук произнесен в записи.</p>
+        </div>
+
+        <div class="back-link">
+            <a href="2.1.html">Back</a>
+        </div>
     </div>
 </body>
 </html>
