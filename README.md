@@ -4,111 +4,33 @@
 
 ### 1.1. Короткие гласные (/ɪ/, /æ/, /e/) — практика минимальных пар
 1.1.1. /ɪ/ — практика минимальных пар (например, ship/sheep, bit/beat)  
-1.1.1.1. Video: ɪ/ vs /i:/ | Learn English Pronunciation | Minimal Pairs Practice - https://m.youtube.com/watch?v=gme2kr9hhXg&t=546s  
-1.1.1.2. Video: I/ vs /i:/ | Learn English Pronunciation | Minimal Pairs Practice - https://shawenglish.com/i-vs-i-learn-english-pronunciation-minimal-pairs-practice/  
-1.1.1.3. Article: Minimal Pairs /ɪ/ and /i:/ - List of Words with Pronunciation - https://www.krisamerikos.com/blog/minimal-pairs-2  
-1.1.1.4. Article: How to Use Minimal Pairs to Improve Your English Pronunciation - https://www.leonardoenglish.com/blog/minimal-pairs  
-
-1.1.2. /æ/ — практика минимальных пар (например, cat/cut, bad/bed)  
-1.1.2.1. Video: /æ/ vs /e/ | Learn English Pronunciation Course #7 | Minimal Pairs ... - https://www.youtube.com/shorts/-yvryf-8CmE  
-1.1.2.2. Video: How to Use Minimal Pairs to Improve Your English Pronunciation - https://www.youtube.com/watch?v=A7CkO-XSUVY&pp=0gcJCfwAo7VqN5tD  
-1.1.2.3. Article: Minimal Pair /æ/ and /e/ | Learn English - https://www.englishclub.com/pronunciation/minimal-pairs-a-e.php  
-1.1.2.4. Article: Minimal Pairs æ and e - List of Words with Pronunciation - https://www.krisamerikos.com/blog/minimal-pairs-1  
-
+1.1.2. /æ/ — практика минимальных пар (например, cat/cut, bad/bed) 
 1.1.3. /e/ — практика минимальных пар (например, bed/bad, pen/pin)  
-1.1.3.1. Video: /æ/ vs /e/ | Learn English Pronunciation Course #7 | Minimal Pairs ... - https://www.youtube.com/shorts/-yvryf-8CmE  
-1.1.3.2. Video: Minimal Pairs | Pronunciation Practice - YouTube - https://www.youtube.com/watch?v=iBnx_S1Zw9A  
-1.1.3.3. Article: Minimal Pair /æ/ and /e/ | Learn English - https://www.englishclub.com/pronunciation/minimal-pairs-a-e.php  
-1.1.3.4. Article: Minimal Pairs æ and e - List of Words with Pronunciation - https://www.krisamerikos.com/blog/minimal-pairs-1  
 
 ### 1.2. Длинные гласные (/i:/, /u:/, /ɜ:/) — практика произношения
 1.2.1. /i:/ — практика произношения (например, sheep, feel, machine)  
-1.2.1.1. Video: MASTER English Pronunciation | The 5 LONG Vowel Sounds - https://www.youtube.com/watch?v=RmxByBumXxg  
-1.2.1.2. Video: Long Vowel Sounds in English | PRACTICE - YouTube - https://www.youtube.com/watch?v=siU8ZnuzGOg  
-1.2.1.3. Article: IPA English Vowel Sounds Examples - Practice & Record - https://www.speechactive.com/english-vowels-ipa-international-phonetic-alphabet/  
-1.2.1.4. Article: English vowels. - BYJU'S - https://byjus.com/english/vowels-in-english/  
-
 1.2.2. /u:/ — практика произношения (например, food, boot, true)  
-1.2.2.1. Video: 5-Step Process to Learn /uː/ Sound vs /ʊ - YouTube - https://www.youtube.com/watch?v=tZ5NzSKN4eY  
-1.2.2.2. Video: How to Pronounce ALL Vowel Sounds in British English ... - YouTube - https://www.youtube.com/watch?v=5w3VW41ISaDBs  
-1.2.2.3. Article: IPA English Vowel Sounds Examples - Practice & Record - https://www.speechactive.com/english-vowels-ipa-international-phonetic-alphabet/  
-1.2.2.4. Article: English vowels. - BYJU'S - https://byjus.com/english/vowels-in-english/  
-
 1.2.3. /ɜ:/ — практика произношения (например, bird, nurse, work)  
-1.2.3.1. Video: Master the /ɜː/ Long Vowel - Perfect RP British Pronunciation Guide - https://www.youtube.com/watch?v=2uC1UYzPhWo  
-1.2.3.2. Video: How to practise the /ɜ:/ vowel sound | Learn English | - YouTube - https://www.youtube.com/watch?v=48RuNbeAjMs  
-1.2.3.3. Article: Teaching the English sounds /ǝ/ and /ɜː - Adrian Underhill - https://adrianunderhill.com/2013/10/30/teaching-the-english-sounds-%25C7%259D-and-%25C9%259C%25CB%2590/  
-1.2.3.4. Article: and /ɜ:/ in English #minimalpairs #pronunciation #vowels - YouTube - https://www.youtube.com/watch?v=jasAn0scWBQ  
 
 ### 1.3. Перекрестная практика (/ɪ/ vs /i:/, /æ/ vs /ɜ:/, /e/ vs /ɪ/) — минимальные пары
 1.3.1. /ɪ/ vs /i:/ — минимальные пары (например, ship/sheep, live/leave)  
-1.3.1.1. Video: ɪ/ vs /i:/ | Learn English Pronunciation | Minimal Pairs Practice - https://m.youtube.com/watch?v=gme2kr9hhXg&t=546s  
-1.3.1.2. Video: /æ/ vs /e/ | Learn English Pronunciation Course #7 | Minimal Pairs ... - https://www.youtube.com/shorts/-yvryf-8CmE  
-1.3.1.3. Article: Minimal Pairs /ɪ/ and /i:/ - List of Words with Pronunciation - https://www.krisamerikos.com/blog/minimal-pairs-2  
-1.3.1.4. Article: Minimal Pairs | Learn English - https://www.englishclub.com/pronunciation/minimal-pairs.php  
-
 1.3.2. /æ/ vs /ɜ:/ — минимальные пары (например, bad/bird, man/turn)  
-1.3.2.1. Video: and /ɜ:/ in English #minimalpairs #pronunciation #vowels - YouTube - https://www.youtube.com/watch?v=jasAn0scWBQ  
-1.3.2.2. Video: ɑ:/ vs /ɜ:/ | Learn English Pronunciation Course #8 - YouTube - https://www.youtube.com/watch?v=Fx-mTjpL54I  
-1.3.2.3. Article: Minimal Pairs | Learn English - https://www.englishclub.com/pronunciation/minimal-pairs.php  
-1.3.2.4. Article: When the Easy Becomes Difficult: Factors Affecting the Acquisition of ... - https://www.frontiersin.org/asa/jel/article/10.3389/fcomm.2021.660917/full  
-
 1.3.3. /e/ vs /ɪ/ — минимальные пары (например, bed/bid, men/min)  
-1.3.3.1. Video: /æ/ vs /e/ | Learn English Pronunciation Course #7 | Minimal Pairs ... - https://www.youtube.com/shorts/-yvryf-8CmE  
-1.3.3.2. Video: English Pronunciation Course for Beginners | 8 Lessons - https://www.youtube.com/watch?v=8oJzRdqstkA  
-1.3.3.3. Article: The short vowel sounds for E, I, and U are pronounced /ɛ/, /ɪ/, and ... - https://www.quora.com/The-short-vowel-sounds-for-E-I-and-U-are-pronounced-%25C9%259B-%25C9%25AA-and-%25CA%258C-respectively-Why-are-er-ir-and-ur-all-pronounced-identically-as-%25C9%259C-r  
-1.3.3.4. Article: Are there any minimal pairs between [ɪ] and [i], or between ... - Reddit - https://www.reddit.com/r/asklinguistics/comments/1i3w4cp/are_there_any_minimal_pairs_between_%25C9%25AA_and_i_or/  
 
 ### 1.4. Дифтонги (/eɪ/, /aɪ/, /ɪə/) — произношение и минимальные пары
 1.4.1. /eɪ/ — произношение и минимальные пары (например, day, face; day/die)  
-1.4.1.1. Video: How to Pronounce ALL Vowel Sounds in British English ... - YouTube - https://www.youtube.com/watch?v=jUHuHVysCxs&pp=0gcJCfwAo7VqN5tD  
-1.4.1.2. Video: The Diphthong /eɪ/ | Vowel Sounds | English Pronunciation - YouTube - https://www.youtube.com/watch?v=O-9cOgRYZ_Y  
-1.4.1.3. Article: Complete Guide to the 8 Diphthongs in English - BoldVoice - https://www.boldvoice.com/blog/diphthongs-in-english  
-1.4.1.4. Article: Minimal Pair /e/ and /eɪ/ | Learn English - https://www.englishclub.com/pronunciation/minimal-pairs-e-ei.php  
-
 1.4.2. /aɪ/ — произношение и минимальные пары (например, time, light; time/team)  
-1.4.2.1. Video: How to Pronounce ALL Vowel Sounds in British English ... - YouTube - https://www.youtube.com/watch?v=jUHuHVysCxs&pp=0gcJCfwAo7VqN5tD  
-1.4.2.2. Video: Sounds of English Vowels and Consonants with phonetic symbols - https://www.youtube.com/watch?v=JwTDPu2TE6k&pp=0gcJCfwAo7VqN5tD  
-1.4.2.3. Article: Complete Guide to the 8 Diphthongs in English - BoldVoice - https://www.boldvoice.com/blog/diphthongs-in-english  
-1.4.2.4. Article: English diphthongs list: Examples, pronunciation, and tips - Preply - https://preply.com/en/blog/english-diphthongs/  
-
 1.4.3. /ɪə/ — произношение и минимальные пары (например, near, fear; near/knee)  
-1.4.3.1. Video: How to Pronounce ALL Vowel Sounds in British English ... - YouTube - https://www.youtube.com/watch?v=jUHuHVysCxs&pp=0gcJCfwAo7VqN5tD  
-1.4.3.2. Video: The Diphthong /ʊə/ | Vowel Sounds | English Pronunciation - YouTube - https://www.youtube.com/watch?v=zOhXA_is93Q  
-1.4.3.3. Article: Complete Guide to the 8 Diphthongs in English - BoldVoice - https://www.boldvoice.com/blog/diphthongs-in-english  
-1.4.3.4. Article: [PDF] THE AUDITORY PERCEPTION OF NORTH AMERICAN ENGLISH ... - https://files.eric.ed.gov/fulltext/EJ1250580.pdf  
 
 ### 1.5. Дифтонги (/oʊ/, /aʊ/, /ɔɪ/, /eə/) — практика произношения
-1.5.1. /oʊ/ — практика произношения (например, go, home)  
-1.5.1.1. Video: How to Pronounce ALL Vowel Sounds in British English ... - YouTube - https://www.youtube.com/watch?v=jUHuHVysCxs&pp=0gcJCfwAo7VqN5tD  
-1.5.1.2. Video: The Diphthong /eɪ/ | Vowel Sounds | English Pronunciation - YouTube - https://www.youtube.com/watch?v=O-9cOgRYZ_Y  
-1.5.1.3. Article: Complete Guide to the 8 Diphthongs in English - BoldVoice - https://www.boldvoice.com/blog/diphthongs-in-english  
-1.5.1.4. Article: English diphthongs list: Examples, pronunciation, and tips - Preply - https://preply.com/en/blog/english-diphthongs/  
-
+1.5.1. /oʊ/ — практика произношения (например, go, home) 
 1.5.2. /aʊ/ — практика произношения (например, now, house)  
-1.5.2.1. Video: aʊ/ - 'mouth', 'now' & 'fowl' - English Pronunciation Tips - YouTube - https://www.youtube.com/watch?v=9WD2IS2IS2IS  
-1.5.2.2. Video: Short Vowels (æ, ɛ, ɪ, ɑ, ʌ, ə, ʊ) | 44 Sounds of American English - https://www.youtube.com/watch?v=qrZGO29KjYU  
-1.5.2.3. Article: Complete Guide to the 8 Diphthongs in English - BoldVoice - https://www.boldvoice.com/blog/diphthongs-in-english  
-1.5.2.4. Article: English diphthongs list: Examples, pronunciation, and tips - Preply - https://preply.com/en/blog/english-diphthongs/  
-
 1.5.3. /ɔɪ/ — практика произношения (например, boy, choice)  
-1.5.3.1. Video: How to Pronounce ALL Vowel Sounds in British English ... - YouTube - https://www.youtube.com/watch?v=jUHuHVysCxs&pp=0gcJCfwAo7VqN5tD  
-1.5.3.2. Video: The Diphthong /eɪ/ | Vowel Sounds | English Pronunciation - YouTube - https://www.youtube.com/watch?v=O-9cOgRYZ_Y  
-1.5.3.3. Article: Complete Guide to the 8 Diphthongs in English - BoldVoice - https://www.boldvoice.com/blog/diphthongs-in-english  
-1.5.3.4. Article: English diphthongs list: Examples, pronunciation, and tips - Preply - https://preply.com/en/blog/english-diphthongs/  
-
 1.5.4. /eə/ — практика произношения (например, hair, care)  
-1.5.4.1. Video: The Diphthong /ʊə/ | Vowel Sounds | English Pronunciation - YouTube - https://www.youtube.com/watch?v=zOhXA_is93Q  
-1.5.4.2. Video: The Diphthong /eɪ/ | Vowel Sounds | English Pronunciation - YouTube - https://www.youtube.com/watch?v=O-9cOgRYZ_Y  
-1.5.4.3. Article: Complete Guide to the 8 Diphthongs in English - BoldVoice - https://www.boldvoice.com/blog/diphthongs-in-english  
-1.5.4.4. Article: English diphthongs list: Examples, pronunciation, and tips - Preply - https://preply.com/en/blog/english-diphthongs/  
+
 
 ### 1.6. Короткие гласные (/ʊ/, /ə/), дополнительные дифтонги (/ʊə/) — произношение и различение
 1.6.1. /ʊ/ — произношение и различение (например, book, put)  
-1.6.1.1. Video: The Diphthong /ʊə/ | Vowel Sounds | English Pronunciation - YouTube - https://www.youtube.com/watch?v=zOhXA_is93Q  
-1.6.1.2. Video: The Diphthong /eɪ/ | Vowel Sounds | English Pronunciation - YouTube - https://www.youtube.com/watch?v=O-9cOgRYZ_Y  
-1.6.1.3. Article: English Diphthong Pronunciation Problems Encountered by the ... - https://www.researchgate.net/publication/366418209_English_Diphthong_Pronunciation_Problems_Encountered_by_the_Fourth_Semester_Students_of_English_Language_Education_Program_at_Qomaruddin_University  
-1.6.1.4. Article: Complete Guide to the 8 Diphthongs in English - BoldVoice - https://www.boldvoice.com/blog/diphthongs-in-english  
 
 1.6.2. /ə/ — произношение и различение (например, about, banana)  
 1.6.2.1. Video: A Course in Phonetics and Speaking English | 17th Vowel | əu ... - https://www.youtube.com/watch?v=dFK8spKm3Mk  
