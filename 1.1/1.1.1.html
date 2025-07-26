@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>English Pronunciation</title>
+    <title>1.1.1. /ɪ/ — практика минимальных пар</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
+        /* Основные стили */
         body {
             font-family: 'Roboto', sans-serif;
             background-color: #f4f7fa;
@@ -18,8 +19,9 @@
             min-height: 100vh;
             line-height: 1.6;
         }
+
         .container {
-            max-width: 800px;
+            max-width: 900px;
             width: 90%;
             background-color: #fff;
             padding: 40px 30px;
@@ -27,6 +29,7 @@
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
             margin: 20px auto;
         }
+
         h3 {
             font-size: 1.8rem;
             font-weight: 700;
@@ -36,40 +39,82 @@
             border-bottom: 2px solid #e0e0e0;
             padding-bottom: 10px;
         }
-        .section-list {
+
+        h4 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: #007bff;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+
+        .resource-list {
             list-style: none;
             padding: 0;
             margin: 0;
         }
-        .section-item {
+
+        .resource-item {
             margin-bottom: 20px;
-        }
-        .section-item a {
-            display: block;
-            padding: 15px 20px;
             background-color: #e9f1ff;
             border-radius: 8px;
-            text-decoration: none;
-            color: #007bff;
-            font-weight: 500;
-            transition: background-color 0.3s ease, transform 0.2s ease;
+            padding: 15px 20px;
             box-shadow: 0 2px 8px rgba(0, 123, 255, 0.1);
         }
-        .section-item a:hover {
-            background-color: #d4e6ff;
-            transform: translateY(-2px);
-        }
-        .section-item strong {
-            display: block;
-            font-size: 1.1rem;
+
+        .resource-item summary {
+            font-weight: 500;
             color: #2c3e50;
-            margin-bottom: 5px;
+            cursor: pointer;
+            outline: none;
         }
+
+        .resource-item details[open] summary {
+            margin-bottom: 10px;
+        }
+
+        .resource-item iframe {
+            width: 100%;
+            height: 315px;
+            border: none;
+            border-radius: 8px;
+        }
+
+        .resource-item a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .resource-item a:hover {
+            color: #0056b3;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+
+        table th, table td {
+            border: 1px solid #e0e0e0;
+            padding: 10px;
+            text-align: left;
+        }
+
+        table th {
+            background-color: #f8f9fa;
+            font-weight: 600;
+        }
+
         .back-link {
             display: block;
             text-align: center;
             margin-top: 30px;
         }
+
         .back-link a {
             display: inline-block;
             padding: 10px 20px;
@@ -80,34 +125,182 @@
             font-weight: 500;
             transition: background-color 0.3s ease;
         }
+
         .back-link a:hover {
             background-color: #5a6268;
         }
+
+        /* Адаптивность для мобильных устройств */
         @media (max-width: 600px) {
             .container {
                 padding: 20px 15px;
                 width: 95%;
             }
+
             h3 {
                 font-size: 1.5rem;
             }
-            .section-item a {
+
+            h4 {
+                font-size: 1.2rem;
+            }
+
+            .resource-item {
                 padding: 12px 15px;
             }
-            .section-item strong {
-                font-size: 1rem;
+
+            .resource-item iframe {
+                height: 200px;
             }
         }
     </style>
 </head>
 <body>
     <div class="container">
+        <h3>1.1.1. /ɪ/ — практика минимальных пар (например, ship/sheep, bit/beat)</h3>
+        
+        <h4>Видеоресурсы от англоязычных преподавателей</h4>
+        <ul class="resource-list">
+            <li class="resource-item">
+                <details>
+                    <summary>/ɪ/ vs /i:/ | Learn English Pronunciation | Minimal Pairs Practice (Fanny, English Pronunciation with Fanny)</summary>
+                    <p>Видео учит различать звуки через минимальные пары, с примерами вроде ship/sheep и практическими упражнениями. Длительность: ~9 мин.</p>
+                    <iframe src="https://www.youtube.com/embed/gme2kr9hhXg" allowfullscreen></iframe>
+                </details>
+            </li>
+            <li class="resource-item">
+                <details>
+                    <summary>Practice Your English Pronunciation: /ɪ/ vs /iː/ Vowel Sounds (Teacher Fanny)</summary>
+                    <p>Фокус на практике минимальных пар, таких как bit/beat, с повторением и советами по артикуляции. Подходит для начинающих.</p>
+                    <iframe src="https://www.youtube.com/embed/ZIrySgunrxM" allowfullscreen></iframe>
+                </details>
+            </li>
+            <li class="resource-item">
+                <details>
+                    <summary>Minimal Pairs /ɪ/ and /i:/ | Listening Quiz (mmmEnglish)</summary>
+                    <p>Тест на прослушивание минимальных пар (например, ship/sheep, sit/seat) с объяснением различий в артикуляции. Идеально для тренировки слуха.</p>
+                    <iframe src="https://www.youtube.com/embed/JY9t27Bm8CE" allowfullscreen></iframe>
+                </details>
+            </li>
+            <li class="resource-item">
+                <details>
+                    <summary>English Pronunciation - /i:/ vs /ɪ/ (English with Lucy)</summary>
+                    <p>Объяснение звуков с примерами минимальных пар (bit/beat, ship/sheep) и советами по растяжке /i:/ как в "cheese". Британский акцент.</p>
+                    <iframe src="https://www.youtube.com/embed/JtjzynPflXA" allowfullscreen></iframe>
+                </details>
+            </li>
+            <li class="resource-item">
+                <details>
+                    <summary>i/ vs /ɪ/ Minimal Pairs - American English Listening and Pronunciation Practice (Rachel's English)</summary>
+                    <p>Американский акцент, практика пар вроде green/grin, с фокусом на слух и повторение.</p>
+                    <iframe src="https://www.youtube.com/embed/mpz7A3hwI34" allowfullscreen></iframe>
+                </details>
+            </li>
+            <li class="resource-item">
+                <details>
+                    <summary>Learn the American Accent: EE /i/ and IH /ɪ/ Minimal Pairs Listening Quiz (Clear English Corner with Keenyn Rhodes)</summary>
+                    <p>Тест на пары вроде ship/sheep, с визуальной артикуляцией.</p>
+                    <iframe src="https://www.youtube.com/embed/xIx7cCGmLlE" allowfullscreen></iframe>
+                </details>
+            </li>
+            <li class="resource-item">
+                <details>
+                    <summary>/ɪ/ and /i/ Vowels | English Pronunciation Exercises (American English with Jennifer)</summary>
+                    <p>35 минимальных пар (например, it/eat) плюс дополнительные слова для практики.</p>
+                    <iframe src="https://www.youtube.com/embed/FayYaWBpn2A" allowfullscreen></iframe>
+                </details>
+            </li>
+        </ul>
 
-<p>1.1.1.1. Video: ɪ/ vs /i:/ | Learn English Pronunciation | Minimal Pairs Practice - https://m.youtube.com/watch?v=gme2kr9hhXg&t=546s  </p>
-<p>1.1.1.2. Video: I/ vs /i:/ | Learn English Pronunciation | Minimal Pairs Practice - https://shawenglish.com/i-vs-i-learn-english-pronunciation-minimal-pairs-practice/  </p>
-<p>1.1.1.3. Article: Minimal Pairs /ɪ/ and /i:/ - List of Words with Pronunciation - https://www.krisamerikos.com/blog/minimal-pairs-2  </p>
-<p>1.1.1.4. Article: How to Use Minimal Pairs to Improve Your English Pronunciation - https://www.leonardoenglish.com/blog/minimal-pairs  </p>
+        <h4>Видеоресурсы от русскоязычных преподавателей</h4>
+        <ul class="resource-list">
+            <li class="resource-item">
+                <details>
+                    <summary>Английские гласные звуки: /iː/ vs /ɪ/ - секреты произношения (English Galaxy)</summary>
+                    <p>Разница между долгим /iː/ (как русский "и" с улыбкой) и кратким /ɪ/ (как приглушённый "э"), с минимальными парами вроде ship/sheep, bit/beat. Сравнение британского и американского акцентов.</p>
+                    <iframe src="https://www.youtube.com/embed/_mMzVLHTp1s" allowfullscreen></iframe>
+                </details>
+            </li>
+            <li class="resource-item">
+                <details>
+                    <summary>Урок 8. Новые задания на правила чтения. Английский краткий звук "i" - [ɪ] (English Galaxy)</summary>
+                    <p>Практика чтения слов с /ɪ/ (буквы I, Y), минимальные пары и упражнения для русскоязычных.</p>
+                    <iframe src="https://www.youtube.com/embed/s2KVxLxkKX8" allowfullscreen></iframe>
+                </details>
+            </li>
+        </ul>
 
+        <h4>Текстовые ресурсы на английском</h4>
+        <ul class="resource-list">
+            <li class="resource-item">
+                <strong>Minimal Pair /ɪ/ and /i:/ (EnglishClub, Alex Case)</strong>
+                <p>Объяснение: /i:/ длиннее /ɪ/, произносите /i:/ с широкой улыбкой. Советы: Используйте длину и позицию рта для различия.</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Уровень</th>
+                            <th>Примеры</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Elementary</td>
+                            <td>bin/bean, chip/cheap, his/he’s, it/eat, sit/seat</td>
+                        </tr>
+                        <tr>
+                            <td>Pre-Intermediate</td>
+                            <td>did/deed, fill/feel, fit/feet, grin/green, hit/heat</td>
+                        </tr>
+                        <tr>
+                            <td>Intermediate</td>
+                            <td>bit/beat, bitch/beach, itch/each, gin/gene, grid/greed</td>
+                        </tr>
+                        <tr>
+                            <td>Upper-Intermediate</td>
+                            <td>bid/bead, bitch/beech, biz/bees, chick/cheek, chit/cheat</td>
+                        </tr>
+                        <tr>
+                            <td>Advanced</td>
+                            <td>blip/bleep, britches/breeches, crick/creek, din/dean, finned/fiend</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a href="https://www.englishclub.com/pronunciation/minimal-pairs-i-ee.php" target="_blank">Ссылка на ресурс</a>
+            </li>
+            <li class="resource-item">
+                <strong>50+ English Minimal Pair Examples for Pronunciation Practice (Preply, Martin Sketchley)</strong>
+                <p>Фокус на /ɪ/ vs /i:/ для улучшения понимания. Примеры: ship/sheep (beginner), hill/he’ll (intermediate), fist/feast (advanced). Советы: Играйте в "Pronunciation Pyramid" (читайте пары, партнер следует по пирамиде) или "Minimal Pairs Bingo" (заполняйте карточку парами, читайте вслучай). Также: повторяйте tongue twisters, записывайте себя, слушайте носителей.</p>
+                <a href="https://preply.com/en/blog/minimal-pairs/" target="_blank">Ссылка на ресурс</a>
+            </li>
+            <li class="resource-item">
+                <strong>Minimal Pairs /ɪ/ and /i:/ - List of Words with Pronunciation (Kris Amerikos)</strong>
+                <p>/i:/ длиннее, язык выше; /ɪ/ короче, язык ниже. Список пар: bin/bean, bit/beat, chip/cheap, chick/cheek, dip/deep, did/deed, fill/feel, fit/feet, fist/feast, grid/greed, grin/green, hid/heed, hip/heap, hit/heat, hill/heel, it/eat, itch/each, knit/neat, lick/leak, lip/leap, list/least, live/leave, pip/peep, pill/peel, pick/peak, pitch/peach, rich/reach, rid/read, sit/seat, ship/sheep, sick/seek, sip/seep, slip/sleep, sin/seen, still/steel, win/wean, will/wheel.</p>
+                <a href="https://www.krisamerikos.com/blog/minimal-pairs-2" target="_blank">Ссылка на ресурс</a>
+            </li>
+        </ul>
+
+        <h4>Текстовые ресурсы на русском</h4>
+        <ul class="resource-list">
+            <li class="resource-item">
+                <strong>Опасные слова: чего не стоит говорить при носителях английского (Habr, Denis Runov)</strong>
+                <p>Минимальные пары как слова, отличающиеся одним звуком, могут менять смысл (особенно для русских, где нет /ɪ/ vs /i:/). /i:/ как русский "и" с улыбкой, /ɪ/ как приглушённый "э". Примеры: sheet/shit, piece(or peace)/piss, beach/bitch. Советы: Изучайте пары, чтобы избежать недоразумений; правило: "ee/ea/ie" часто /i:/, "i" часто /ɪ/.</p>
+                <a href="https://habr.com/ru/articles/648051/" target="_blank">Ссылка на ресурс</a>
+            </li>
+            <li class="resource-item">
+                <strong>Идеальное английское произношение: 6 практических советов (Green Forest)</strong>
+                <p>/ɪ/ как украинский "и" (мягкий, тихий), /iː/ как "і". Не в длине разница, а в качестве. Примеры: heat/hit, feet/fit, bit/beat, it/eat. Советы: Тренируйте на словах от носителей, используйте украинские звуки для преимущества (русский "ы" не подходит). Гласные без ударения могут стать /ɪ/ (carpet, luggage).</p>
+                <a href="https://greenforest.com.ua/ru/journal/read/idealnoe-anglijskoe-proiznoshenie-6-prakticheskih-sovetov" target="_blank">Ссылка на ресурс</a>
+            </li>
+            <li class="resource-item">
+                <strong>Как улучшить английское произношение (Linguatrip)</strong>
+                <p>Минимальные пары (ship/sheep, bad/bed) для практики. Советы: Тренируйте различение звуков, чтобы избежать путаницы.</p>
+                <a href="https://linguatrip.com/blog/eng_pronounciation/" target="_blank">Ссылка на ресурс</a>
+            </li>
+        </ul>
+
+        <div class="back-link">
+            <a href="1.1.html">Back</a>
+        </div>
     </div>
 </body>
 </html>
