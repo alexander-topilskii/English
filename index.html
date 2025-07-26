@@ -1,142 +1,268 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>English Pronunciation</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            background-color: #f4f7fa;
-            color: #333;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            line-height: 1.6;
-        }
-        .container {
-            max-width: 800px;
-            width: 90%;
-            background-color: #fff;
-            padding: 40px 30px;
-            border-radius: 12px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-            margin: 20px auto;
-        }
-        h3 {
-            font-size: 1.8rem;
-            font-weight: 700;
-            color: #2c3e50;
-            margin-bottom: 30px;
-            text-align: center;
-            border-bottom: 2px solid #e0e0e0;
-            padding-bottom: 10px;
-        }
-        .section-list {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-        .section-item {
-            margin-bottom: 20px;
-        }
-        .section-item a {
-            display: block;
-            padding: 15px 20px;
-            background-color: #e9f1ff;
-            border-radius: 8px;
-            text-decoration: none;
-            color: #007bff;
-            font-weight: 500;
-            transition: background-color 0.3s ease, transform 0.2s ease;
-            box-shadow: 0 2px 8px rgba(0, 123, 255, 0.1);
-        }
-        .section-item a:hover {
-            background-color: #d4e6ff;
-            transform: translateY(-2px);
-        }
-        .section-item strong {
-            display: block;
-            font-size: 1.1rem;
-            color: #2c3e50;
-            margin-bottom: 5px;
-        }
-        .back-link {
-            display: block;
-            text-align: center;
-            margin-top: 30px;
-        }
-        .back-link a {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #6c757d;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 6px;
-            font-weight: 500;
-            transition: background-color 0.3s ease;
-        }
-        .back-link a:hover {
-            background-color: #5a6268;
-        }
-        @media (max-width: 600px) {
-            .container {
-                padding: 20px 15px;
-                width: 95%;
-            }
-            h3 {
-                font-size: 1.5rem;
-            }
-            .section-item a {
-                padding: 12px 15px;
-            }
-            .section-item strong {
-                font-size: 1rem;
-            }
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>English Pronunciation</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+body {
+font-family: 'Roboto', sans-serif;
+background-color: #f4f7fa;
+color: #333;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+line-height: 1.6;
+}
+.container {
+max-width: 800px;
+width: 90%;
+background-color: #fff;
+padding: 40px 30px;
+border-radius: 12px;
+box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+margin: 20px auto;
+}
+h3 {
+font-size: 1.8rem;
+font-weight: 700;
+color: #2c3e50;
+margin-bottom: 30px;
+text-align: center;
+border-bottom: 2px solid #e0e0e0;
+padding-bottom: 10px;
+}
+.section-list {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+.section-item {
+margin-bottom: 20px;
+}
+.section-item a {
+display: block;
+padding: 15px 20px;
+background-color: #e9f1ff;
+border-radius: 8px;
+text-decoration: none;
+color: #007bff;
+font-weight: 500;
+transition: background-color 0.3s ease, transform 0.2s ease;
+box-shadow: 0 2px 8px rgba(0, 123, 255, 0.1);
+}
+.section-item a:hover {
+background-color: #d4e6ff;
+transform: translateY(-2px);
+}
+.section-item strong {
+display: block;
+font-size: 1.1rem;
+color: #2c3e50;
+margin-bottom: 5px;
+}
+.back-link {
+display: block;
+text-align: center;
+margin-top: 30px;
+}
+.back-link a {
+display: inline-block;
+padding: 10px 20px;
+background-color: #6c757d;
+color: #fff;
+text-decoration: none;
+border-radius: 6px;
+font-weight: 500;
+transition: background-color 0.3s ease;
+}
+.back-link a:hover {
+background-color: #5a6268;
+}
+@media (max-width: 600px) {
+.container {
+padding: 20px 15px;
+width: 95%;
+}
+h3 {
+font-size: 1.5rem;
+}
+.section-item a {
+padding: 12px 15px;
+}
+.section-item strong {
+font-size: 1rem;
+}
+}
+</style>
 </head>
 <body>
-    <div class="container">
+<div class="container">
 <h1>План изучения произношения английского языка</h1>
 
 <h2>1. Гласные звуки и их перекрестное сравнение</h2>
-<p><a href="1.1/README.html">1.1. Короткие гласные (/ɪ/, /æ/, /e/) — практика минимальных пар</a></p>
-<p><a href="1.2/README.html">1.2. Длинные гласные (/i:/, /u:/, /ɜ:/) — практика произношения</a></p>
-<p><a href="1.3/README.html">1.3. Перекрестная практика (/ɪ/ vs /i:/, /æ/ vs /ɜ:/, /e/ vs /ɪ/) — минимальные пары</a></p>
-<p><a href="1.4/README.html">1.4. Дифтонги (/eɪ/, /aɪ/, /ɪə/) — произношение и минимальные пары</a></p>
-<p><a href="1.5/README.html">1.5. Дифтонги (/oʊ/, /aʊ/, /ɔɪ/, /eə/) — практика произношения</a></p>
-<p><a href="1.6/README.html">1.6. Короткие гласные (/ʊ/, /ə/), дополнительные дифтонги (/ʊə/) — произношение и различение</a></p>
-<p><a href="1.7/README.html">1.7. Повторение и аудиоанализ раздела</a></p>
+        <ul class="section-list">
+            <li class="section-item">
+                <a href="1.1/README.html">
+                    <strong>1.1. Короткие гласные</strong>
+                    (/ɪ/, /æ/, /e/) — практика минимальных пар
+                </a>
+            </li>
+            <li class="section-item">
+                <a href="1.2/README.html">
+                    <strong>1.2. Длинные гласные</strong>
+                    (/i:/, /u:/, /ɜ:/) — практика произношения
+                </a>
+            </li>
+            <li class="section-item">
+                <a href="1.3/README.html">
+                    <strong>1.3. Перекрестная практика</strong>
+                    (/ɪ/ vs /i:/, /æ/ vs /ɜ:/, /e/ vs /ɪ/) — минимальные пары
+                </a>
+            </li>
+            <li class="section-item">
+                <a href="1.4/README.html">
+                    <strong>1.4. Дифтонги</strong>
+                    (/eɪ/, /aɪ/, /ɪə/) — произношение и минимальные пары
+                </a>
+            </li>
+            <li class="section-item">
+                <a href="1.5/README.html">
+                    <strong>1.5. Дифтонги</strong>
+                    (/oʊ/, /aʊ/, /ɔɪ/, /eə/) — практика произношения
+                </a>
+            </li>
+            <li class="section-item">
+                <a href="1.6/README.html">
+                    <strong>1.6. Короткие гласные</strong>
+                    (/ʊ/, /ə/), дополнительные дифтонги (/ʊə/) — произношение и различение
+                </a>
+            </li>
+            <li class="section-item">
+                <a href="1.7/README.html">
+                    <strong>1.7. Повторение и аудиоанализ раздела</strong>
+                </a>
+            </li>
 
+        </ul>
 <h2>2. Согласные звуки</h2>
-<p><a href="2.1/README.html">2.1. Глухие согласные (/θ/, /ʃ/, /tʃ/, /h/) — артикуляция и минимальные пары</a></p>
-<p><a href="2.2/README.html">2.2. Звонкие согласные (/ð/, /ʒ/, /dʒ/) — произношение и минимальные пары</a></p>
-<p><a href="2.3/README.html">2.3. Парные (/f/-/v/, /s/-/z/) — минимальные пары и избегание девойсинга</a></p>
-<p><a href="2.4/README.html">2.4. Парные (/p/-/b/, /t/-/d/, /k/-/g/) — артикуляция и практика пар</a></p>
-<p><a href="2.5/README.html">2.5. /w/, /v/, /r/, /l/, /ŋ/ — произношение и минимальные пары</a></p>
-<p><a href="2.6/README.html">2.6. Дополнительные звуки (/j/, /v/-/w/, /l/ в кластерах) — артикуляционная практика</a></p>
-<p><a href="2.7/README.html">2.7. Повторение и аудиоанализ раздела</a></p>
+        <ul class="section-list">
+            <li class="section-item">
+                <a href="2.1/README.html">
+                    <strong>2.1. Глухие согласные</strong>
+                    (/θ/, /ʃ/, /tʃ/, /h/) — артикуляция и минимальные пары
+                </a>
+            </li>
+            <li class="section-item">
+                <a href="2.2/README.html">
+                    <strong>2.2. Звонкие согласные</strong>
+                    (/ð/, /ʒ/, /dʒ/) — произношение и минимальные пары
+                </a>
+            </li>
+            <li class="section-item">
+                <a href="2.3/README.html">
+                    <strong>2.3. Парные</strong>
+                    (/f/-/v/, /s/-/z/) — минимальные пары и избегание девойсинга
+                </a>
+            </li>
+            <li class="section-item">
+                <a href="2.4/README.html">
+                    <strong>2.4. Парные</strong>
+                    (/p/-/b/, /t/-/d/, /k/-/g/) — артикуляция и практика пар
+                </a>
+            </li>
+            <li class="section-item">
+                <a href="2.5/README.html">
+                    <strong>2.5. /w/, /v/, /r/, /l/, /ŋ/ — произношение и минимальные пары</strong>
+                </a>
+            </li>
+            <li class="section-item">
+                <a href="2.6/README.html">
+                    <strong>2.6. Дополнительные звуки</strong>
+                    (/j/, /v/-/w/, /l/ в кластерах) — артикуляционная практика
+                </a>
+            </li>
+            <li class="section-item">
+                <a href="2.7/README.html">
+                    <strong>2.7. Повторение и аудиоанализ раздела</strong>
+                </a>
+            </li>
 
+        </ul>
 <h2>3. Сочетания согласных</h2>
-<p><a href="3.1/README.html">3.1. Начальные кластеры (/sp/, /st/, /sk/, /sm/) — артикуляция и практика</a></p>
-<p><a href="3.2/README.html">3.2. Кластеры с /r/ (/pr/, /tr/, /kr/, /fr/, /gr/) — практика</a></p>
-<p><a href="3.3/README.html">3.3. Кластеры с /l/ (/pl/, /bl/, /kl/, /fl/, /gl/) — практика</a></p>
-<p><a href="3.4/README.html">3.4. Сложные кластеры (/str/, /spr/, /spl/, /skr/) — произношение</a></p>
-<p><a href="3.5/README.html">3.5. Кластеры с /θ/, /ð/ — артикуляция и практика</a></p>
-<p><a href="3.6/README.html">3.6. Конечные кластеры (/nd/, /st/, /ld/, /ŋk/, /nts/) — практика</a></p>
-<p><a href="3.7/README.html">3.7. Повторение и аудиоанализ раздела</a></p>
+        <ul class="section-list">
+            <li class="section-item">
+                <a href="3.1/README.html">
+                    <strong>3.1. Начальные кластеры</strong>
+                    (/sp/, /st/, /sk/, /sm/) — артикуляция и практика
+                </a>
+            </li>
+            <li class="section-item">
+                <a href="3.2/README.html">
+                    <strong>3.2. Кластеры с /r/</strong>
+                    (/pr/, /tr/, /kr/, /fr/, /gr/) — практика
+                </a>
+            </li>
+            <li class="section-item">
+                <a href="3.3/README.html">
+                    <strong>3.3. Кластеры с /l/</strong>
+                    (/pl/, /bl/, /kl/, /fl/, /gl/) — практика
+                </a>
+            </li>
+            <li class="section-item">
+                <a href="3.4/README.html">
+                    <strong>3.4. Сложные кластеры</strong>
+                    (/str/, /spr/, /spl/, /skr/) — произношение
+                </a>
+            </li>
+            <li class="section-item">
+                <a href="3.5/README.html">
+                    <strong>3.5. Кластеры с /θ/, /ð/ — артикуляция и практика</strong>
+                </a>
+            </li>
+            <li class="section-item">
+                <a href="3.6/README.html">
+                    <strong>3.6. Конечные кластеры</strong>
+                    (/nd/, /st/, /ld/, /ŋk/, /nts/) — практика
+                </a>
+            </li>
+            <li class="section-item">
+                <a href="3.7/README.html">
+                    <strong>3.7. Повторение и аудиоанализ раздела</strong>
+                </a>
+            </li>
 
+        </ul>
 <h2>4. Ударение в словах</h2>
-<p><a href="4.1/README.html">4.1. Основы word stress (REcord vs reCORD) — практика</a></p>
-<p><a href="4.2/README.html">4.2. Двухсложные слова — ударение и schwa</a></p>
-<p><a href="4.3/README.html">4.3. Трёхсложные слова — артикуляционная практика</a></p>
-<p><a href="4.4/README.html">4.4. Сложные слова (information, photography) — практика</a></p>
+        <ul class="section-list">
+            <li class="section-item">
+                <a href="4.1/README.html">
+                    <strong>4.1. Основы word stress</strong>
+                    (REcord vs reCORD) — практика
+                </a>
+            </li>
+            <li class="section-item">
+                <a href="4.2/README.html">
+                    <strong>4.2. Двухсложные слова — ударение и schwa</strong>
+                </a>
+            </li>
+            <li class="section-item">
+                <a href="4.3/README.html">
+                    <strong>4.3. Трёхсложные слова — артикуляционная практика</strong>
+                </a>
+            </li>
+            <li class="section-item">
+                <a href="4.4/README.html">
+                    <strong>4.4. Сложные слова</strong>
+                    (information, photography) — практика
+                </a>
+            </li>
 
-    </div>
+        </ul>
+</div>
 </body>
 </html>
