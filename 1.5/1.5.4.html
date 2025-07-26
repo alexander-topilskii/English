@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>English Pronunciation</title>
+    <title>1.5.4. /eə/ — практика произношения</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
+        /* Основные стили */
         body {
             font-family: 'Roboto', sans-serif;
             background-color: #f4f7fa;
@@ -18,8 +19,9 @@
             min-height: 100vh;
             line-height: 1.6;
         }
+
         .container {
-            max-width: 800px;
+            max-width: 900px;
             width: 90%;
             background-color: #fff;
             padding: 40px 30px;
@@ -27,6 +29,7 @@
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
             margin: 20px auto;
         }
+
         h3 {
             font-size: 1.8rem;
             font-weight: 700;
@@ -36,40 +39,90 @@
             border-bottom: 2px solid #e0e0e0;
             padding-bottom: 10px;
         }
-        .section-list {
+
+        h4 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: #007bff;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+
+        h5 {
+            font-size: 1.2rem;
+            font-weight: 500;
+            color: #2c3e50;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        .resource-list {
             list-style: none;
             padding: 0;
             margin: 0;
         }
-        .section-item {
+
+        .resource-item {
             margin-bottom: 20px;
-        }
-        .section-item a {
-            display: block;
-            padding: 15px 20px;
             background-color: #e9f1ff;
             border-radius: 8px;
-            text-decoration: none;
-            color: #007bff;
-            font-weight: 500;
-            transition: background-color 0.3s ease, transform 0.2s ease;
+            padding: 15px 20px;
             box-shadow: 0 2px 8px rgba(0, 123, 255, 0.1);
         }
-        .section-item a:hover {
-            background-color: #d4e6ff;
-            transform: translateY(-2px);
-        }
-        .section-item strong {
-            display: block;
-            font-size: 1.1rem;
+
+        .resource-item summary {
+            font-weight: 500;
             color: #2c3e50;
-            margin-bottom: 5px;
+            cursor: pointer;
+            outline: none;
         }
+
+        .resource-item details[open] summary {
+            margin-bottom: 10px;
+        }
+
+        .resource-item iframe {
+            width: 100%;
+            height: 315px;
+            border: none;
+            border-radius: 8px;
+        }
+
+        .resource-item a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .resource-item a:hover {
+            color: #0056b3;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+
+        table th, table td {
+            border: 1px solid #e0e0e0;
+            padding: 10px;
+            text-align: left;
+        }
+
+        table th {
+            background-color: #f8f9fa;
+            font-weight: 600;
+        }
+
         .back-link {
             display: block;
             text-align: center;
             margin-top: 30px;
         }
+
         .back-link a {
             display: inline-block;
             padding: 10px 20px;
@@ -80,33 +133,175 @@
             font-weight: 500;
             transition: background-color 0.3s ease;
         }
+
         .back-link a:hover {
             background-color: #5a6268;
         }
+
+        /* Адаптивность для мобильных устройств */
         @media (max-width: 600px) {
             .container {
                 padding: 20px 15px;
                 width: 95%;
             }
+
             h3 {
                 font-size: 1.5rem;
             }
-            .section-item a {
+
+            h4 {
+                font-size: 1.2rem;
+            }
+
+            .resource-item {
                 padding: 12px 15px;
             }
-            .section-item strong {
-                font-size: 1rem;
+
+            .resource-item iframe {
+                height: 200px;
             }
         }
     </style>
 </head>
 <body>
     <div class="container">
-<p>1.5.4.1. Video: The Diphthong /ʊə/ | Vowel Sounds | English Pronunciation - YouTube - https://www.youtube.com/watch?v=zOhXA_is93Q  </p>
-<p>1.5.4.2. Video: The Diphthong /eɪ/ | Vowel Sounds | English Pronunciation - YouTube - https://www.youtube.com/watch?v=O-9cOgRYZ_Y  </p>
-<p>1.5.4.3. Article: Complete Guide to the 8 Diphthongs in English - BoldVoice - https://www.boldvoice.com/blog/diphthongs-in-english  </p>
-<p>1.5.4.4. Article: English diphthongs list: Examples, pronunciation, and tips - Preply - https://preply.com/en/blog/english-diphthongs/  </p>
+        <h3>1.5.4. /eə/ — практика произношения (например, hair, care)</h3>
+        
+        <h4>Видеоресурсы от англоязычных преподавателей</h4>
+        <ul class="resource-list">
+            <li class="resource-item">
+                <details>
+                    <summary>The Diphthong /eə/ | Vowel Sounds | English Pronunciation</summary>
+                    <p>This video teaches you all about the diphthong /eə/.</p>
+                    <iframe src="https://www.youtube.com/embed/cG_HfyHiAKU" allowfullscreen></iframe>
+                </details>
+            </li>
+            <li class="resource-item">
+                <details>
+                    <summary>How to Pronounce Diphthong eə - Vowel Sound + English Pronunciation Practice</summary>
+                    <p>Liz shows you how to make the /eə/ sound, shows you all the different spellings.</p>
+                    <iframe src="https://www.youtube.com/embed/EzkNtGVjCjM" allowfullscreen></iframe>
+                </details>
+            </li>
+            <li class="resource-item">
+                <details>
+                    <summary>/eə/ - 'square', 'fair' & 'pair' - English Pronunciation Tips</summary>
+                    <p>We look at how to pronounce the diphthong /eə/ and look at the words 'square', 'fair' & 'pair'.</p>
+                    <iframe src="https://www.youtube.com/embed/0J7-5maJJIk" allowfullscreen></iframe>
+                </details>
+            </li>
+            <li class="resource-item">
+                <details>
+                    <summary>How to Pronounce /eə/ Vowel Sound</summary>
+                    <p>In this video I show you how to pronounce the diphthong /eə/ in British English.</p>
+                    <iframe src="https://www.youtube.com/embed/nbEQvRq3p84" allowfullscreen></iframe>
+                </details>
+            </li>
+            <li class="resource-item">
+                <details>
+                    <summary>eə as in bear, British English Pronunciation of the Phonetic Alphabet</summary>
+                    <p>The sound eə is a combination of two vowel sounds in English and is called a diphthong.</p>
+                    <iframe src="https://www.youtube.com/embed/fFeosc8P2RA" allowfullscreen></iframe>
+                </details>
+            </li>
+            <li class="resource-item">
+                <details>
+                    <summary>The eə Sound</summary>
+                    <p>This video along with the others in our pronunciation series.</p>
+                    <iframe src="https://www.youtube.com/embed/Ff-MqM6Zb4Q" allowfullscreen></iframe>
+                </details>
+            </li>
+            <li class="resource-item">
+                <details>
+                    <summary>BRITISH ENGLISH PRONUNCIATION (RP accent) - /eə</summary>
+                    <p>In this lesson I will teach you how to pronounce the diphthong /eə/.</p>
+                    <iframe src="https://www.youtube.com/embed/ElcNBKKTVBA" allowfullscreen></iframe>
+                </details>
+            </li>
+        </ul>
 
+        <h4>Видеоресурсы от русскоязычных преподавателей</h4>
+        <ul class="resource-list">
+            <li class="resource-item">
+                <details>
+                    <summary>How to Pronounce /eə/ Vowel Sound</summary>
+                    <p>General lesson useful for Russian speakers.</p>
+                    <iframe src="https://www.youtube.com/embed/nbEQvRq3p84" allowfullscreen></iframe>
+                </details>
+            </li>
+            <li class="resource-item">
+                <details>
+                    <summary>Russian Accent Reduction Lesson | One-to-One British Pronunciation Lesson</summary>
+                    <p>Lesson for Russian student on English pronunciation.</p>
+                    <iframe src="https://www.youtube.com/embed/2ChmgHdkH-kjF0" allowfullscreen></iframe>
+                </details>
+            </li>
+        </ul>
+
+        <h4>Текстовые ресурсы на английском</h4>
+        <ul class="resource-list">
+            <li class="resource-item">
+                <strong>Pronunciation exercises: /eə/ vs /ɜː/</strong>
+                <p>Common words to help students become more aware of pronunciation.</p>
+                <a href="https://teflpedia.com/Pronunciation_exercises:_/e%9C/_vs_/%C9%9C%CB%90/" target="_blank">Ссылка на ресурс</a>
+            </li>
+            <li class="resource-item">
+                <strong>and /ʊə/ in English (Sound Workout)</strong>
+                <p>Pronounce /eə/ and /ʊə/ in English through focused exercises.</p>
+                <a href="https://www.youtube.com/watch?v=clCzPbJRqJE" target="_blank">Ссылка на ресурс</a>
+            </li>
+            <li class="resource-item">
+                <strong>The Diphthong /eə/ in English Pronunciation</strong>
+                <p>This video teaches you all about the diphthong /eə/.</p>
+                <a href="https://billie-english.com/2024/01/22/the-diphthong-e%9C-in-english-pronunciation/" target="_blank">Ссылка на ресурс</a>
+            </li>
+            <li class="resource-item">
+                <strong>Complete Guide to the 8 Diphthongs in English</strong>
+                <p>Master the 8 diphthongs to enhance pronunciation.</p>
+                <a href="https://www.boldvoice.com/blog/diphthongs-in-english" target="_blank">Ссылка на ресурс</a>
+            </li>
+        </ul>
+
+        <h4>Текстовые ресурсы на русском</h4>
+        <ul class="resource-list">
+            <li class="resource-item">
+                <strong>Linguistic Features of Russian English</strong>
+                <p>Features of Russian English pronunciation.</p>
+                <a href="https://www.cambridge.org/core/books/russian-english/linguistic-features-of-russian-english/B4D1AE3FA48E942668EEDC29584A724F" target="_blank">Ссылка на ресурс</a>
+            </li>
+            <li class="resource-item">
+                <strong>THE PHONOLOGICAL ANALYSIS OF RUSSIAN ACCENT</strong>
+                <p>Phonological analysis for Russian speakers.</p>
+                <a href="https://jim.unindra.ac.id/index.php/jedu/article/download/4129/pdf_1" target="_blank">Ссылка на ресурс</a>
+            </li>
+            <li class="resource-item">
+                <strong>IMPROVEMENT OF ENGLISH PRONUNCIATION OF RUSSIAN LEARNERS</strong>
+                <p>Improvement strategies for Russian learners.</p>
+                <a href="https://dspace.ut.ee/bitstreams/62b1170f-7085-4a1b-a119-3cc1b05f33b7/download" target="_blank">Ссылка на ресурс</a>
+            </li>
+        </ul>
+
+        <h4>Практические упражнения</h4>
+        <div class="resource-item">
+            <h5>Одиночные слова</h5>
+            <p>Повторяйте слова с /eə/: hair, care, pair, square, bear. Слушайте себя и корректируйте, начиная с /e/ и переходя к /ə/.</p>
+        </div>
+        <div class="resource-item">
+            <h5>Фразы</h5>
+            <p>Практикуйте: "Take care of your hair." "The pair is fair." Повторите 5–10 раз каждую.</p>
+        </div>
+        <div class="resource-item">
+            <h5>Скороговорки</h5>
+            <p>"Bare bear in the square." "Care for the rare hair." Повторяйте медленно, затем ускоряйте.</p>
+        </div>
+        <div class="resource-item">
+            <h5>Дополнительно: Аудирование</h5>
+            <p>Запишите себя и сравните с видео. Слушайте песни с /eə/ и повторяйте.</p>
+        </div>
+
+        <div class="back-link">
+            <a href="1.5.html">Back</a>
+        </div>
     </div>
 </body>
 </html>
