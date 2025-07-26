@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>English Pronunciation</title>
+    <title>1.2.2. /u:/ — практика произношения</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
+        /* Основные стили */
         body {
             font-family: 'Roboto', sans-serif;
             background-color: #f4f7fa;
@@ -18,8 +19,9 @@
             min-height: 100vh;
             line-height: 1.6;
         }
+
         .container {
-            max-width: 800px;
+            max-width: 900px;
             width: 90%;
             background-color: #fff;
             padding: 40px 30px;
@@ -27,6 +29,7 @@
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
             margin: 20px auto;
         }
+
         h3 {
             font-size: 1.8rem;
             font-weight: 700;
@@ -36,40 +39,90 @@
             border-bottom: 2px solid #e0e0e0;
             padding-bottom: 10px;
         }
-        .section-list {
+
+        h4 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: #007bff;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+
+        h5 {
+            font-size: 1.2rem;
+            font-weight: 500;
+            color: #2c3e50;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        .resource-list {
             list-style: none;
             padding: 0;
             margin: 0;
         }
-        .section-item {
+
+        .resource-item {
             margin-bottom: 20px;
-        }
-        .section-item a {
-            display: block;
-            padding: 15px 20px;
             background-color: #e9f1ff;
             border-radius: 8px;
-            text-decoration: none;
-            color: #007bff;
-            font-weight: 500;
-            transition: background-color 0.3s ease, transform 0.2s ease;
+            padding: 15px 20px;
             box-shadow: 0 2px 8px rgba(0, 123, 255, 0.1);
         }
-        .section-item a:hover {
-            background-color: #d4e6ff;
-            transform: translateY(-2px);
-        }
-        .section-item strong {
-            display: block;
-            font-size: 1.1rem;
+
+        .resource-item summary {
+            font-weight: 500;
             color: #2c3e50;
-            margin-bottom: 5px;
+            cursor: pointer;
+            outline: none;
         }
+
+        .resource-item details[open] summary {
+            margin-bottom: 10px;
+        }
+
+        .resource-item iframe {
+            width: 100%;
+            height: 315px;
+            border: none;
+            border-radius: 8px;
+        }
+
+        .resource-item a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .resource-item a:hover {
+            color: #0056b3;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+
+        table th, table td {
+            border: 1px solid #e0e0e0;
+            padding: 10px;
+            text-align: left;
+        }
+
+        table th {
+            background-color: #f8f9fa;
+            font-weight: 600;
+        }
+
         .back-link {
             display: block;
             text-align: center;
             margin-top: 30px;
         }
+
         .back-link a {
             display: inline-block;
             padding: 10px 20px;
@@ -80,34 +133,170 @@
             font-weight: 500;
             transition: background-color 0.3s ease;
         }
+
         .back-link a:hover {
             background-color: #5a6268;
         }
+
+        /* Адаптивность для мобильных устройств */
         @media (max-width: 600px) {
             .container {
                 padding: 20px 15px;
                 width: 95%;
             }
+
             h3 {
                 font-size: 1.5rem;
             }
-            .section-item a {
+
+            h4 {
+                font-size: 1.2rem;
+            }
+
+            .resource-item {
                 padding: 12px 15px;
             }
-            .section-item strong {
-                font-size: 1rem;
+
+            .resource-item iframe {
+                height: 200px;
             }
         }
     </style>
 </head>
 <body>
     <div class="container">
+        <h3>1.2.2. /u:/ — практика произношения (например, food, boot, true)</h3>
+        
+        <h4>Видеоресурсы от англоязычных преподавателей</h4>
+        <ul class="resource-list">
+            <li class="resource-item">
+                <details>
+                    <summary>How to Pronounce English Vowels /u/ boot and /ʊ/ book (Sounds American)</summary>
+                    <p>Практика /u:/ в словах boot, food с американским акцентом.</p>
+                    <iframe src="https://www.youtube.com/embed/NORzH0PnfPE" allowfullscreen></iframe>
+                </details>
+            </li>
+            <li class="resource-item">
+                <details>
+                    <summary>How to pronounce food | long and short u (English with Lucy)</summary>
+                    <p>Объяснение /u:/ в food, true с британским акцентом.</p>
+                    <iframe src="https://www.youtube.com/embed/jWb--bFgjMo" allowfullscreen></iframe>
+                </details>
+            </li>
+            <li class="resource-item">
+                <details>
+                    <summary>American Pronunciation: uvs ʊ (Foot vs Food) (Rachel's English)</summary>
+                    <p>Разница между /u:/ и /ʊ/ в food, boot.</p>
+                    <iframe src="https://www.youtube.com/embed/tVqINuC1LY" allowfullscreen></iframe>
+                </details>
+            </li>
+            <li class="resource-item">
+                <details>
+                    <summary>/ʊ/ vs /u:/ | Different Pronunciation of FULL and FOOL (English Pronunciation with Fanny)</summary>
+                    <p>Минимальные пары для /u:/, включая food/full.</p>
+                    <iframe src="https://www.youtube.com/embed/_d8sC7J8ikw" allowfullscreen></iframe>
+                </details>
+            </li>
+            <li class="resource-item">
+                <details>
+                    <summary>100 Words Long U Vowel Sound /uː/ | English Pronunciation Drill (English with Jennifer)</summary>
+                    <p>100 слов с /u:/ для практики.</p>
+                    <iframe src="https://www.youtube.com/embed/JeJ7r8PuoRg" allowfullscreen></iframe>
+                </details>
+            </li>
+            <li class="resource-item">
+                <details>
+                    <summary>The /uː/ Sound (fool, pool, true) (BBC Learning English)</summary>
+                    <p>Практика /u:/ в true, food.</p>
+                    <iframe src="https://www.youtube.com/embed/RT-hlF1ZY2Y" allowfullscreen></iframe>
+                </details>
+            </li>
+            <li class="resource-item">
+                <details>
+                    <summary>English Pronunciation Practice: OO & U (mmmEnglish)</summary>
+                    <p>Практика /u:/ в boot, food.</p>
+                    <iframe src="https://www.youtube.com/embed/R7A0yx0cnGU" allowfullscreen></iframe>
+                </details>
+            </li>
+        </ul>
 
-<p>1.2.2.1. Video: 5-Step Process to Learn /uː/ Sound vs /ʊ - YouTube - https://www.youtube.com/watch?v=tZ5NzSKN4eY  </p>
-<p>1.2.2.2. Video: How to Pronounce ALL Vowel Sounds in British English ... - YouTube - https://www.youtube.com/watch?v=5w3VW41ISaDBs  </p>
-<p>1.2.2.3. Article: IPA English Vowel Sounds Examples - Practice & Record - https://www.speechactive.com/english-vowels-ipa-international-phonetic-alphabet/  </p>
-<p>1.2.2.4. Article: English vowels. - BYJU'S - https://byjus.com/english/vowels-in-english/   </p>
+        <h4>Видеоресурсы от русскоязычных преподавателей</h4>
+        <ul class="resource-list">
+            <li class="resource-item">
+                <details>
+                    <summary>How to Speak English - Pronunciation for Russian Speakers (EnglishLessons4U)</summary>
+                    <p>Урок для русскоязычных, включая гласные /u:/.</p>
+                    <iframe src="https://www.youtube.com/embed/g3L21HDRt5A" allowfullscreen></iframe>
+                </details>
+            </li>
+            <li class="resource-item">
+                <details>
+                    <summary>English Pronunciation Tips for Russian and German Speakers (mmmEnglish)</summary>
+                    <p>Советы по /u:/ для русскоязычных.</p>
+                    <iframe src="https://www.youtube.com/embed/IW4g5Jl3wps" allowfullscreen></iframe>
+                </details>
+            </li>
+        </ul>
 
+        <h4>Текстовые ресурсы на английском</h4>
+        <ul class="resource-list">
+            <li class="resource-item">
+                <strong>Vowel sound /u/ as in "blue" | American English pronunciation (Sounds American)</strong>
+                <p>Объяснение /u:/ с примерами food, true.</p>
+                <a href="https://soundsamerican.net/article/vowel_sound_tense_u_as_in_blue" target="_blank">Ссылка на ресурс</a>
+            </li>
+            <li class="resource-item">
+                <strong>The learners' problem with phoneme long [u:] (ResearchGate)</strong>
+                <p>Анализ трудностей с /u:/.</p>
+                <a href="https://www.researchgate.net/figure/The-learners-problem-with-phoneme-long-u_tbl5_339023743" target="_blank">Ссылка на ресурс</a>
+            </li>
+            <li class="resource-item">
+                <strong>Why does the pronunciation of “U” vary in English? (StackExchange)</strong>
+                <p>Обсуждение /u:/ в boot, food.</p>
+                <a href="https://english.stackexchange.com/questions/145178/why-does-the-pronunciation-of-u-vary-in-english" target="_blank">Ссылка на ресурс</a>
+            </li>
+            <li class="resource-item">
+                <strong>Learning English—an Advanced Lesson: the 6 sounds of “oo” (Rachel's English)</strong>
+                <p>Звуки oo, включая /u:/ в food.</p>
+                <a href="https://rachelsenglish.com/the-6-sounds-of-oo/" target="_blank">Ссылка на ресурс</a>
+            </li>
+        </ul>
+
+        <h4>Текстовые ресурсы на русском</h4>
+        <ul class="resource-list">
+            <li class="resource-item">
+                <strong>English Pronunciation for Russian Speakers (BoldVoice)</strong>
+                <p>Советы по /u:/ для русскоязычных.</p>
+                <a href="https://www.boldvoice.com/blog/english-pronunciation-russian-speakers" target="_blank">Ссылка на ресурс</a>
+            </li>
+            <li class="resource-item">
+                <strong>Russian Speakers: English Pronunciation Exercises with Recorder (Speech Active)</strong>
+                <p>Упражнения на /u:/.</p>
+                <a href="https://www.speechactive.com/english-pronunciation-accent-reduction-russian/" target="_blank">Ссылка на ресурс</a>
+            </li>
+        </ul>
+
+        <h4>Практические упражнения</h4>
+        <div class="resource-item">
+            <h5>Одиночные слова</h5>
+            <p>Повторяйте слова с /u:/: food, boot, true, moon, school, blue. Сравнивайте с /ʊ/: food/foot, boot/book, true/troop. Губы округлены, язык назад.</p>
+        </div>
+        <div class="resource-item">
+            <h5>Фразы</h5>
+            <p>Практикуйте: "The food is good." "Put on your boot." "It's true blue." Повторите 5–10 раз каждую, растягивая /u:/.</p>
+        </div>
+        <div class="resource-item">
+            <h5>Скороговорки</h5>
+            <p>"Blue boots suit you." "True food for two." "Cool school tools." Повторяйте медленно, затем ускоряйте.</p>
+        </div>
+        <div class="resource-item">
+            <h5>Дополнительно: Аудирование</h5>
+            <p>Запишите себя и сравните с видео. Слушайте песни с /u:/ и повторяйте фразы.</p>
+        </div>
+
+        <div class="back-link">
+            <a href="1.2.html">Back</a>
+        </div>
     </div>
 </body>
 </html>
